@@ -1,0 +1,897 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS|PosValue
+#T_SP=de.tudarmstadt.ukp.dkpro.core.api.ner.type.NamedEntity|value
+
+
+#Text=Lieber Fritz Lieb , dieses befremdliche Briefpapier mag Dir anku\u0308ndigen , da\u00DF ich aus der Fremde schreibe - wenigstens wenn ich Paris als Heimat setze .
+1-1	0-6	Lieber	ADJA	_	
+1-2	7-12	Fritz	NE	PER[1]	
+1-3	13-17	Lieb	NE	PER[1]	
+1-4	18-19	,	$,	_	
+1-5	20-26	dieses	PDAT	_	
+1-6	27-39	befremdliche	ADJA	_	
+1-7	40-51	Briefpapier	NN	_	
+1-8	52-55	mag	VMFIN	_	
+1-9	56-59	Dir	PPER	_	
+1-10	60-71	ankündigen	VVINF	_	
+1-11	72-73	,	$,	_	
+1-12	74-77	daß	KOUS	_	
+1-13	78-81	ich	PPER	_	
+1-14	82-85	aus	APPR	_	
+1-15	86-89	der	ART	_	
+1-16	90-96	Fremde	NN	_	
+1-17	97-105	schreibe	VVFIN	_	
+1-18	106-107	-	$(	_	
+1-19	108-118	wenigstens	ADV	_	
+1-20	119-123	wenn	KOUS	_	
+1-21	124-127	ich	PPER	_	
+1-22	128-133	Paris	NE	LOC	
+1-23	134-137	als	APPR	_	
+1-24	138-144	Heimat	NN	_	
+1-25	145-150	setze	VVFIN	_	
+1-26	151-152	.	$.	_	
+
+#Text=Denn in anderm Sinn bin ich zur Zeit `` zu Haus '' - im Hause meiner fru\u0308heren Frau in San Remo .
+2-1	154-158	Denn	KON	_	
+2-2	159-161	in	APPR	_	
+2-3	162-168	anderm	PIAT	_	
+2-4	169-173	Sinn	NN	_	
+2-5	174-177	bin	VAFIN	_	
+2-6	178-181	ich	PPER	_	
+2-7	182-185	zur	APPRART	_	
+2-8	186-190	Zeit	NN	_	
+2-9	191-193	``	$(	_	
+2-10	194-196	zu	APPR	_	
+2-11	197-201	Haus	NN	_	
+2-12	202-204	''	$(	_	
+2-13	205-206	-	$(	_	
+2-14	207-209	im	APPRART	_	
+2-15	210-215	Hause	NN	_	
+2-16	216-222	meiner	PPOSAT	_	
+2-17	223-232	früheren	ADJA	_	
+2-18	233-237	Frau	NN	_	
+2-19	238-240	in	APPR	_	
+2-20	241-244	San	NE	LOC[3]	
+2-21	245-249	Remo	NE	LOC[3]	
+2-22	250-251	.	$.	_	
+
+#Text=Wir erwarten Stefan ... S\u00E4\u00DFen wir beisammen : Du in der Verfassung , in der Du Deinen Brief an mich richtetest , ich , wie ich gegenw\u00E4rtig an diesem schreibe - wir h\u00E4tten uns der harmonischsten Verdrossenheit zu erfreuen gehabt .
+3-1	253-256	Wir	PPER	_	
+3-2	257-265	erwarten	VVFIN	_	
+3-3	266-272	Stefan	NE	PER	
+3-4	273-276	...	$(	_	
+3-5	277-282	Säßen	VVFIN	_	
+3-6	283-286	wir	PPER	_	
+3-7	287-296	beisammen	ADJD	_	
+3-8	297-298	:	$.	_	
+3-9	299-301	Du	PPER	_	
+3-10	302-304	in	APPR	_	
+3-11	305-308	der	ART	_	
+3-12	309-319	Verfassung	NN	_	
+3-13	320-321	,	$,	_	
+3-14	322-324	in	APPR	_	
+3-15	325-328	der	PRELS	_	
+3-16	329-331	Du	PPER	_	
+3-17	332-338	Deinen	PPOSAT	_	
+3-18	339-344	Brief	NN	_	
+3-19	345-347	an	APPR	_	
+3-20	348-352	mich	PPER	_	
+3-21	353-363	richtetest	VVFIN	_	
+3-22	364-365	,	$,	_	
+3-23	366-369	ich	PPER	_	
+3-24	370-371	,	$,	_	
+3-25	372-375	wie	PWAV	_	
+3-26	376-379	ich	PPER	_	
+3-27	380-391	gegenwärtig	ADJD	_	
+3-28	392-394	an	APPR	_	
+3-29	395-401	diesem	PDS	_	
+3-30	402-410	schreibe	VVFIN	_	
+3-31	411-412	-	$(	_	
+3-32	413-416	wir	PPER	_	
+3-33	417-423	hätten	VAFIN	_	
+3-34	424-427	uns	PPER	_	
+3-35	428-431	der	ART	_	
+3-36	432-446	harmonischsten	ADJA	_	
+3-37	447-461	Verdrossenheit	NN	_	
+3-38	462-464	zu	PTKZU	_	
+3-39	465-473	erfreuen	VVINF	_	
+3-40	474-480	gehabt	VAPP	_	
+3-41	481-482	.	$.	_	
+
+#Text=Ob ich aber die meine so gediegen verwerten kann , wie Du in der wundervollen Beschreibung von Basel die Deinige , steht dahin .
+4-1	484-486	Ob	KOUS	_	
+4-2	487-490	ich	PPER	_	
+4-3	491-495	aber	ADV	_	
+4-4	496-499	die	ART	_	
+4-5	500-505	meine	PPOSAT	_	
+4-6	506-508	so	ADV	_	
+4-7	509-517	gediegen	ADJD	_	
+4-8	518-527	verwerten	VVINF	_	
+4-9	528-532	kann	VMFIN	_	
+4-10	533-534	,	$,	_	
+4-11	535-538	wie	PWAV	_	
+4-12	539-541	Du	PPER	_	
+4-13	542-544	in	APPR	_	
+4-14	545-548	der	ART	_	
+4-15	549-561	wundervollen	ADJA	_	
+4-16	562-574	Beschreibung	NN	_	
+4-17	575-578	von	APPR	_	
+4-18	579-584	Basel	NE	LOC	
+4-19	585-588	die	ART	_	
+4-20	589-596	Deinige	NN	_	
+4-21	597-598	,	$,	_	
+4-22	599-604	steht	VVFIN	_	
+4-23	605-610	dahin	PROAV	_	
+4-24	611-612	.	$.	_	
+
+#Text=Ich frage mich , ob es nicht vielleicht eine Art von weltgeschichtlichem Halljahr gibt , in dem statt der Unfreien die D\u00E4monen sich ihres Daseins freuen und ob wir nicht in ein solches hineingerieten .
+5-1	614-617	Ich	PPER	_	
+5-2	618-623	frage	VVFIN	_	
+5-3	624-628	mich	PRF	_	
+5-4	629-630	,	$,	_	
+5-5	631-633	ob	KOUS	_	
+5-6	634-636	es	PPER	_	
+5-7	637-642	nicht	PTKNEG	_	
+5-8	643-653	vielleicht	ADV	_	
+5-9	654-658	eine	ART	_	
+5-10	659-662	Art	NN	_	
+5-11	663-666	von	APPR	_	
+5-12	667-686	weltgeschichtlichem	ADJA	_	
+5-13	687-695	Halljahr	NN	_	
+5-14	696-700	gibt	VVFIN	_	
+5-15	701-702	,	$,	_	
+5-16	703-705	in	APPR	_	
+5-17	706-709	dem	PRELS	_	
+5-18	710-715	statt	APPR	_	
+5-19	716-719	der	ART	_	
+5-20	720-728	Unfreien	NN	_	
+5-21	729-732	die	ART	_	
+5-22	733-740	Dämonen	NN	_	
+5-23	741-745	sich	PRF	_	
+5-24	746-751	ihres	PPOSAT	_	
+5-25	752-759	Daseins	NN	_	
+5-26	760-766	freuen	VVFIN	_	
+5-27	767-770	und	KON	_	
+5-28	771-773	ob	KOUS	_	
+5-29	774-777	wir	PPER	_	
+5-30	778-783	nicht	PTKNEG	_	
+5-31	784-786	in	APPR	_	
+5-32	787-790	ein	ART	_	
+5-33	791-798	solches	PIAT	_	
+5-34	799-813	hineingerieten	VVFIN	_	
+5-35	814-815	.	$.	_	
+
+#Text=Ich kann mir vorstellen , da\u00DF wir durch unsere Lebensbedingungen sp\u00E4tern Geschlechtern so entstellt vorkommen , als schleppten wir einen Kn\u00E4uel von Mi\u00DFgeburten als d\u00E4monische Parasiten mit uns herum .
+6-1	817-820	Ich	PPER	_	
+6-2	821-825	kann	VMFIN	_	
+6-3	826-829	mir	PPER	_	
+6-4	830-840	vorstellen	VVINF	_	
+6-5	841-842	,	$,	_	
+6-6	843-846	daß	KOUS	_	
+6-7	847-850	wir	PPER	_	
+6-8	851-856	durch	APPR	_	
+6-9	857-863	unsere	PPOSAT	_	
+6-10	864-881	Lebensbedingungen	NN	_	
+6-11	882-889	spätern	ADJA	_	
+6-12	890-903	Geschlechtern	NN	_	
+6-13	904-906	so	ADV	_	
+6-14	907-916	entstellt	ADJD	_	
+6-15	917-926	vorkommen	VVFIN	_	
+6-16	927-928	,	$,	_	
+6-17	929-932	als	KOKOM	_	
+6-18	933-943	schleppten	VVFIN	_	
+6-19	944-947	wir	PPER	_	
+6-20	948-953	einen	ART	_	
+6-21	954-960	Knäuel	NN	_	
+6-22	961-964	von	APPR	_	
+6-23	965-976	Mißgeburten	NN	_	
+6-24	977-980	als	APPR	_	
+6-25	981-991	dämonische	ADJA	_	
+6-26	992-1001	Parasiten	NN	_	
+6-27	1002-1005	mit	APPR	_	
+6-28	1006-1009	uns	PPER	_	
+6-29	1010-1015	herum	PTKVZ	_	
+6-30	1016-1017	.	$.	_	
+
+#Text=Und aus welchem Fenster wir immer blicken , es geht ins Tru\u0308be .
+7-1	1019-1022	Und	KON	_	
+7-2	1023-1026	aus	APPR	_	
+7-3	1027-1034	welchem	PWAT	_	
+7-4	1035-1042	Fenster	NN	_	
+7-5	1043-1046	wir	PPER	_	
+7-6	1047-1052	immer	ADV	_	
+7-7	1053-1060	blicken	VVFIN	_	
+7-8	1061-1062	,	$,	_	
+7-9	1063-1065	es	PPER	_	
+7-10	1066-1070	geht	VVFIN	_	
+7-11	1071-1074	ins	APPRART	_	
+7-12	1075-1081	Trübe	NN	_	
+7-13	1082-1083	.	$.	_	
+
+#Text=Von dem \u00F6konomischen Guckloch , das einem bleibt , nicht zu reden .
+8-1	1085-1088	Von	APPR	_	
+8-2	1089-1092	dem	ART	_	
+8-3	1093-1105	ökonomischen	ADJA	_	
+8-4	1106-1114	Guckloch	NN	_	
+8-5	1115-1116	,	$,	_	
+8-6	1117-1120	das	PRELS	_	
+8-7	1121-1126	einem	PIS	_	
+8-8	1127-1133	bleibt	VVFIN	_	
+8-9	1134-1135	,	$,	_	
+8-10	1136-1141	nicht	PTKNEG	_	
+8-11	1142-1144	zu	PTKZU	_	
+8-12	1145-1150	reden	VVINF	_	
+8-13	1151-1152	.	$.	_	
+
+#Text=Mir winkte , voru\u0308bergehend , ein wenig Blau darinnen ; inzwischen hat es sich wieder bedeckt .
+9-1	1154-1157	Mir	PPER	_	
+9-2	1158-1164	winkte	VVFIN	_	
+9-3	1165-1166	,	$,	_	
+9-4	1167-1181	vorübergehend	ADJD	_	
+9-5	1182-1183	,	$,	_	
+9-6	1184-1187	ein	ART	_	
+9-7	1188-1193	wenig	PIDAT	_	
+9-8	1194-1198	Blau	NN	_	
+9-9	1199-1207	darinnen	PROAV	_	
+9-10	1208-1209	;	$.	_	
+9-11	1210-1220	inzwischen	ADV	_	
+9-12	1221-1224	hat	VAFIN	_	
+9-13	1225-1227	es	PPER	_	
+9-14	1228-1232	sich	PRF	_	
+9-15	1233-1239	wieder	ADV	_	
+9-16	1240-1247	bedeckt	VVPP	_	
+9-17	1248-1249	.	$.	_	
+
+#Text=Die Hoffnung auf Besserung ist hinaus geru\u0308ckt ; was aber nicht auf sich warten l\u00E4\u00DFt , ist die Teuerung .
+10-1	1251-1254	Die	ART	_	
+10-2	1255-1263	Hoffnung	NN	_	
+10-3	1264-1267	auf	APPR	_	
+10-4	1268-1277	Besserung	NN	_	
+10-5	1278-1281	ist	VAFIN	_	
+10-6	1282-1288	hinaus	PTKVZ	_	
+10-7	1289-1297	gerückt	VVPP	_	
+10-8	1298-1299	;	$.	_	
+10-9	1300-1303	was	PWS	_	
+10-10	1304-1308	aber	ADV	_	
+10-11	1309-1314	nicht	PTKNEG	_	
+10-12	1315-1318	auf	APPR	_	
+10-13	1319-1323	sich	PRF	_	
+10-14	1324-1330	warten	VVINF	_	
+10-15	1331-1335	läßt	VVFIN	_	
+10-16	1336-1337	,	$,	_	
+10-17	1338-1341	ist	VAFIN	_	
+10-18	1342-1345	die	ART	_	
+10-19	1346-1354	Teuerung	NN	_	
+10-20	1355-1356	.	$.	_	
+
+#Text=Erinnerst Du Dich an unsern gemeinsamen quatorze juillet ?
+11-1	1358-1367	Erinnerst	VVFIN	_	
+11-2	1368-1370	Du	PPER	_	
+11-3	1371-1375	Dich	PPER	_	
+11-4	1376-1378	an	APPR	_	
+11-5	1379-1385	unsern	PPOSAT	_	
+11-6	1386-1397	gemeinsamen	ADJA	_	
+11-7	1398-1406	quatorze	FM	_	
+11-8	1407-1414	juillet	FM	_	
+11-9	1415-1416	?	$.	_	
+
+#Text=Wie durchdacht erscheint jetzt das Mi\u00DFvergnu\u0308gen , das wir damals nur halblaut zu \u00E4u\u00DFern wagten .
+12-1	1418-1421	Wie	PWAV	_	
+12-2	1422-1432	durchdacht	ADJD	_	
+12-3	1433-1442	erscheint	VVFIN	_	
+12-4	1443-1448	jetzt	ADV	_	
+12-5	1449-1452	das	ART	_	
+12-6	1453-1466	Mißvergnügen	NN	_	
+12-7	1467-1468	,	$,	_	
+12-8	1469-1472	das	PRELS	_	
+12-9	1473-1476	wir	PPER	_	
+12-10	1477-1483	damals	ADV	_	
+12-11	1484-1487	nur	ADV	_	
+12-12	1488-1496	halblaut	ADJD	_	
+12-13	1497-1499	zu	PTKZU	_	
+12-14	1500-1506	äußern	VVINF	_	
+12-15	1507-1513	wagten	VAFIN	_	
+12-16	1514-1515	.	$.	_	
+
+#Text=`` Willst Du aber Deine Anschauung von der Politik der Volksfront noch weiter f\u00F6rdern , so wirf in die franz\u00F6sische Presse der Linken einen Blick : sie alle h\u00E4ngen nur an dem Fetisch der `` linken '' Majorit\u00E4t und es st\u00F6rt sie nicht , da\u00DF diese die Politik macht , mit der die Rechte Aufst\u00E4nde provozieren wu\u0308rde .
+13-1	1517-1519	``	$(	_	
+13-2	1520-1526	Willst	VMFIN	_	
+13-3	1527-1529	Du	PPER	_	
+13-4	1530-1534	aber	ADV	_	
+13-5	1535-1540	Deine	PPOSAT	_	
+13-6	1541-1551	Anschauung	NN	_	
+13-7	1552-1555	von	APPR	_	
+13-8	1556-1559	der	ART	_	
+13-9	1560-1567	Politik	NN	_	
+13-10	1568-1571	der	ART	_	
+13-11	1572-1582	Volksfront	NN	_	
+13-12	1583-1587	noch	ADV	_	
+13-13	1588-1594	weiter	ADV	_	
+13-14	1595-1602	fördern	VVINF	_	
+13-15	1603-1604	,	$,	_	
+13-16	1605-1607	so	ADV	_	
+13-17	1608-1612	wirf	VVIMP	_	
+13-18	1613-1615	in	APPR	_	
+13-19	1616-1619	die	ART	_	
+13-20	1620-1632	französische	ADJA	LOCderiv	
+13-21	1633-1639	Presse	NN	_	
+13-22	1640-1643	der	ART	_	
+13-23	1644-1650	Linken	NN	_	
+13-24	1651-1656	einen	ART	_	
+13-25	1657-1662	Blick	NN	_	
+13-26	1663-1664	:	$.	_	
+13-27	1665-1668	sie	PPER	_	
+13-28	1669-1673	alle	PIAT	_	
+13-29	1674-1680	hängen	VVFIN	_	
+13-30	1681-1684	nur	ADV	_	
+13-31	1685-1687	an	APPR	_	
+13-32	1688-1691	dem	ART	_	
+13-33	1692-1699	Fetisch	NN	_	
+13-34	1700-1703	der	ART	_	
+13-35	1704-1706	``	$(	_	
+13-36	1707-1713	linken	ADJA	_	
+13-37	1714-1716	''	$(	_	
+13-38	1717-1726	Majorität	NN	_	
+13-39	1727-1730	und	KON	_	
+13-40	1731-1733	es	PPER	_	
+13-41	1734-1739	stört	VVFIN	_	
+13-42	1740-1743	sie	PPER	_	
+13-43	1744-1749	nicht	PTKNEG	_	
+13-44	1750-1751	,	$,	_	
+13-45	1752-1755	daß	KOUS	_	
+13-46	1756-1761	diese	PDAT	_	
+13-47	1762-1765	die	ART	_	
+13-48	1766-1773	Politik	NN	_	
+13-49	1774-1779	macht	VVFIN	_	
+13-50	1780-1781	,	$,	_	
+13-51	1782-1785	mit	APPR	_	
+13-52	1786-1789	der	PRELS	_	
+13-53	1790-1793	die	ART	_	
+13-54	1794-1800	Rechte	NN	_	
+13-55	1801-1810	Aufstände	NN	_	
+13-56	1811-1822	provozieren	VVINF	_	
+13-57	1823-1829	würde	VAFIN	_	
+13-58	1830-1831	.	$.	_	
+
+#Text=Nichts ist in dieser Hinsicht aufschlu\u00DFreicher als die Entwicklung von Vendredi , den ich seit zwei Jahren jede Woche lese .
+14-1	1833-1839	Nichts	PIS	_	
+14-2	1840-1843	ist	VAFIN	_	
+14-3	1844-1846	in	APPR	_	
+14-4	1847-1853	dieser	PDAT	_	
+14-5	1854-1862	Hinsicht	NN	_	
+14-6	1863-1879	aufschlußreicher	ADV	_	
+14-7	1880-1883	als	KOKOM	_	
+14-8	1884-1887	die	ART	_	
+14-9	1888-1899	Entwicklung	NN	_	
+14-10	1900-1903	von	APPR	_	
+14-11	1904-1912	Vendredi	NE	PUB	
+14-12	1913-1914	,	$,	_	
+14-13	1915-1918	den	PRELS	_	
+14-14	1919-1922	ich	PPER	_	
+14-15	1923-1927	seit	APPR	_	
+14-16	1928-1932	zwei	CARD	_	
+14-17	1933-1939	Jahren	NN	_	
+14-18	1940-1944	jede	PIAT	_	
+14-19	1945-1950	Woche	NN	_	
+14-20	1951-1955	lese	VVFIN	_	
+14-21	1956-1957	.	$.	_	
+
+#Text=Niveau und Intelligenz seiner Mitarbeiter ( der immer gleichen !
+15-1	1959-1965	Niveau	NN	_	
+15-2	1966-1969	und	KON	_	
+15-3	1970-1981	Intelligenz	NN	_	
+15-4	1982-1988	seiner	PPOSAT	_	
+15-5	1989-2000	Mitarbeiter	NN	_	
+15-6	2001-2002	(	$(	_	
+15-7	2003-2006	der	PDS	_	
+15-8	2007-2012	immer	ADV	_	
+15-9	2013-2021	gleichen	ADJA	_	
+15-10	2022-2023	!	$.	_	
+
+#Text=) sinken proportional mit der Dislocierung der hinter ihnen stehenden Massen .
+16-1	2025-2026	)	$(	_	
+16-2	2027-2033	sinken	VVFIN	_	
+16-3	2034-2046	proportional	ADJD	_	
+16-4	2047-2050	mit	APPR	_	
+16-5	2051-2054	der	ART	_	
+16-6	2055-2067	Dislocierung	NN	_	
+16-7	2068-2071	der	ART	_	
+16-8	2072-2078	hinter	APPR	_	
+16-9	2079-2084	ihnen	PPER	_	
+16-10	2085-2094	stehenden	ADJA	_	
+16-11	2095-2101	Massen	NN	_	
+16-12	2102-2103	.	$.	_	
+
+#Text=Auch arbeitstechnisch macht der Zustand der Dinge sich bis in das mindeste Faktum fu\u0308hlbar .
+17-1	2105-2109	Auch	ADV	_	
+17-2	2110-2126	arbeitstechnisch	ADJD	_	
+17-3	2127-2132	macht	VVFIN	_	
+17-4	2133-2136	der	ART	_	
+17-5	2137-2144	Zustand	NN	_	
+17-6	2145-2148	der	ART	_	
+17-7	2149-2154	Dinge	NN	_	
+17-8	2155-2159	sich	PRF	_	
+17-9	2160-2163	bis	APPR	_	
+17-10	2164-2166	in	APPR	_	
+17-11	2167-2170	das	ART	_	
+17-12	2171-2179	mindeste	ADJA	_	
+17-13	2180-2186	Faktum	NN	_	
+17-14	2187-2195	fühlbar	ADJD	_	
+17-15	2196-2197	.	$.	_	
+
+#Text=So wird vorl\u00E4ufig mein gro\u00DFer Essay u\u0308ber Eduard Fuchs nicht erscheinen , um dessen endlose Verhandlungen um die Freigabe seiner Sammlung mit den deutschen Beh\u00F6rden nicht ungu\u0308nstig zu beeinflussen , gleichzeitig sehe ich einen Lieblingsplan seine fast greifbare Gestalt wieder verlieren .
+18-1	2199-2201	So	ADV	_	
+18-2	2202-2206	wird	VAFIN	_	
+18-3	2207-2216	vorläufig	ADJD	_	
+18-4	2217-2221	mein	PPOSAT	_	
+18-5	2222-2228	großer	ADJA	_	
+18-6	2229-2234	Essay	NN	_	
+18-7	2235-2240	über	APPR	_	
+18-8	2241-2247	Eduard	NE	PER[8]	
+18-9	2248-2253	Fuchs	NE	PER[8]	
+18-10	2254-2259	nicht	PTKNEG	_	
+18-11	2260-2270	erscheinen	VVINF	_	
+18-12	2271-2272	,	$,	_	
+18-13	2273-2275	um	KOUI	_	
+18-14	2276-2282	dessen	PDAT	_	
+18-15	2283-2290	endlose	ADJA	_	
+18-16	2291-2304	Verhandlungen	NN	_	
+18-17	2305-2307	um	APPR	_	
+18-18	2308-2311	die	ART	_	
+18-19	2312-2320	Freigabe	NN	_	
+18-20	2321-2327	seiner	PPOSAT	_	
+18-21	2328-2336	Sammlung	NN	_	
+18-22	2337-2340	mit	APPR	_	
+18-23	2341-2344	den	ART	_	
+18-24	2345-2354	deutschen	ADJA	LOCderiv	
+18-25	2355-2363	Behörden	NN	_	
+18-26	2364-2369	nicht	PTKNEG	_	
+18-27	2370-2380	ungünstig	ADJD	_	
+18-28	2381-2383	zu	PTKZU	_	
+18-29	2384-2396	beeinflussen	VVINF	_	
+18-30	2397-2398	,	$,	_	
+18-31	2399-2411	gleichzeitig	ADJD	_	
+18-32	2412-2416	sehe	VVFIN	_	
+18-33	2417-2420	ich	PPER	_	
+18-34	2421-2426	einen	ART	_	
+18-35	2427-2440	Lieblingsplan	NN	_	
+18-36	2441-2446	seine	PPOSAT	_	
+18-37	2447-2451	fast	ADV	_	
+18-38	2452-2461	greifbare	ADJA	_	
+18-39	2462-2469	Gestalt	NN	_	
+18-40	2470-2476	wieder	ADV	_	
+18-41	2477-2486	verlieren	VVINF	_	
+18-42	2487-2488	.	$.	_	
+
+#Text=Ich hatte eine Kritik der Jung'schen Psychologie vor , deren faschistische Armatur ich mir aufzuzeigen versprochen hatte .
+19-1	2490-2493	Ich	PPER	_	
+19-2	2494-2499	hatte	VAFIN	_	
+19-3	2500-2504	eine	ART	_	
+19-4	2505-2511	Kritik	NN	_	
+19-5	2512-2515	der	ART	_	
+19-6	2516-2526	Jung'schen	ADJA	PERderiv	
+19-7	2527-2538	Psychologie	NN	_	
+19-8	2539-2542	vor	APPR	_	
+19-9	2543-2544	,	$,	_	
+19-10	2545-2550	deren	PRELAT	_	
+19-11	2551-2564	faschistische	ADJA	_	
+19-12	2565-2572	Armatur	NN	_	
+19-13	2573-2576	ich	PPER	_	
+19-14	2577-2580	mir	PPER	_	
+19-15	2581-2592	aufzuzeigen	VVIZU	_	
+19-16	2593-2604	versprochen	VVPP	_	
+19-17	2605-2610	hatte	VAFIN	_	
+19-18	2611-2612	.	$.	_	
+
+#Text=Auch das ist aufgeschoben .
+20-1	2614-2618	Auch	ADV	_	
+20-2	2619-2622	das	ART	_	
+20-3	2623-2626	ist	VAFIN	_	
+20-4	2627-2639	aufgeschoben	VVPP	_	
+20-5	2640-2641	.	$.	_	
+
+#Text=Ich wende mich jetzt einer Arbeit u\u0308ber Baudelaire zu .
+21-1	2643-2646	Ich	PPER	_	
+21-2	2647-2652	wende	VVFIN	_	
+21-3	2653-2657	mich	PRF	_	
+21-4	2658-2663	jetzt	ADV	_	
+21-5	2664-2669	einer	ART	_	
+21-6	2670-2676	Arbeit	NN	_	
+21-7	2677-2682	über	APPR	_	
+21-8	2683-2693	Baudelaire	NE	PER	
+21-9	2694-2696	zu	PTKVZ	_	
+21-10	2697-2698	.	$.	_	
+
+#Text=\u00DCber die Emigration wei\u00DF ich wenig zu sagen : von hier aus noch weniger als von Paris aus .
+22-1	2700-2704	Über	APPR	_	
+22-2	2705-2708	die	ART	_	
+22-3	2709-2719	Emigration	NN	_	
+22-4	2720-2724	weiß	VVFIN	_	
+22-5	2725-2728	ich	PPER	_	
+22-6	2729-2734	wenig	ADV	_	
+22-7	2735-2737	zu	PTKZU	_	
+22-8	2738-2743	sagen	VVINF	_	
+22-9	2744-2745	:	$.	_	
+22-10	2746-2749	von	APPR	_	
+22-11	2750-2754	hier	ADV	_	
+22-12	2755-2758	aus	APZR	_	
+22-13	2759-2763	noch	ADV	_	
+22-14	2764-2771	weniger	PIS	_	
+22-15	2772-2775	als	KOKOM	_	
+22-16	2776-2779	von	APPR	_	
+22-17	2780-2785	Paris	NE	LOC	
+22-18	2786-2789	aus	APPO	_	
+22-19	2790-2791	.	$.	_	
+
+#Text=Die zerst\u00F6rende Wirkung der russischen Ereignisse wird notwendig immer weiter um sich greifen .
+23-1	2793-2796	Die	ART	_	
+23-2	2797-2808	zerstörende	ADJA	_	
+23-3	2809-2816	Wirkung	NN	_	
+23-4	2817-2820	der	ART	_	
+23-5	2821-2831	russischen	ADJA	LOCderiv	
+23-6	2832-2842	Ereignisse	NN	_	
+23-7	2843-2847	wird	VAFIN	_	
+23-8	2848-2857	notwendig	ADJD	_	
+23-9	2858-2863	immer	ADV	_	
+23-10	2864-2870	weiter	ADV	_	
+23-11	2871-2873	um	APPR	_	
+23-12	2874-2878	sich	PRF	_	
+23-13	2879-2886	greifen	VVINF	_	
+23-14	2887-2888	.	$.	_	
+
+#Text=Und dabei ist das Schlimme nicht die schnellfertige Entru\u0308stung der unentwegten K\u00E4mpfer fu\u0308r die `` Gedankenfreiheit '' ; viel trauriger und viel notwendiger zugleich scheint mir das Verstummen der Denkenden , die sich , eben als Denkende , schwerlich fu\u0308r Wissende halten k\u00F6nnen .
+24-1	2890-2893	Und	KON	_	
+24-2	2894-2899	dabei	PROAV	_	
+24-3	2900-2903	ist	VAFIN	_	
+24-4	2904-2907	das	ART	_	
+24-5	2908-2916	Schlimme	NN	_	
+24-6	2917-2922	nicht	PTKNEG	_	
+24-7	2923-2926	die	ART	_	
+24-8	2927-2941	schnellfertige	ADJA	_	
+24-9	2942-2953	Entrüstung	NN	_	
+24-10	2954-2957	der	ART	_	
+24-11	2958-2969	unentwegten	ADJA	_	
+24-12	2970-2977	Kämpfer	NN	_	
+24-13	2978-2982	für	APPR	_	
+24-14	2983-2986	die	ART	_	
+24-15	2987-2989	``	$(	_	
+24-16	2990-3006	Gedankenfreiheit	NN	_	
+24-17	3007-3009	''	$(	_	
+24-18	3010-3011	;	$.	_	
+24-19	3012-3016	viel	ADV	_	
+24-20	3017-3026	trauriger	ADJD	_	
+24-21	3027-3030	und	KON	_	
+24-22	3031-3035	viel	ADV	_	
+24-23	3036-3047	notwendiger	ADJA	_	
+24-24	3048-3056	zugleich	ADV	_	
+24-25	3057-3064	scheint	VVFIN	_	
+24-26	3065-3068	mir	PPER	_	
+24-27	3069-3072	das	ART	_	
+24-28	3073-3083	Verstummen	NN	_	
+24-29	3084-3087	der	ART	_	
+24-30	3088-3097	Denkenden	NN	_	
+24-31	3098-3099	,	$,	_	
+24-32	3100-3103	die	PRELS	_	
+24-33	3104-3108	sich	PRF	_	
+24-34	3109-3110	,	$,	_	
+24-35	3111-3115	eben	ADV	_	
+24-36	3116-3119	als	APPR	_	
+24-37	3120-3128	Denkende	NN	_	
+24-38	3129-3130	,	$,	_	
+24-39	3131-3141	schwerlich	ADJD	_	
+24-40	3142-3146	für	ADJD	_	
+24-41	3147-3155	Wissende	NN	_	
+24-42	3156-3162	halten	VVINF	_	
+24-43	3163-3169	können	VMFIN	_	
+24-44	3170-3171	.	$.	_	
+
+#Text=Das ist mein Fall , auch wohl der Deine .
+25-1	3173-3176	Das	PDS	_	
+25-2	3177-3180	ist	VAFIN	_	
+25-3	3181-3185	mein	PPOSAT	_	
+25-4	3186-3190	Fall	NN	_	
+25-5	3191-3192	,	$,	_	
+25-6	3193-3197	auch	ADV	_	
+25-7	3198-3202	wohl	ADV	_	
+25-8	3203-3206	der	ART	_	
+25-9	3207-3212	Deine	NN	_	
+25-10	3213-3214	.	$.	_	
+
+#Text=Gide hat sein neues Buch `` Retouches '' herausgegeben , das sich mit seiner russischen Reise besch\u00E4ftigt .
+26-1	3216-3220	Gide	NE	PER	
+26-2	3221-3224	hat	VAFIN	_	
+26-3	3225-3229	sein	PPOSAT	_	
+26-4	3230-3235	neues	ADJA	_	
+26-5	3236-3240	Buch	NN	_	
+26-6	3241-3243	``	$(	_	
+26-7	3244-3253	Retouches	FM	LIT	
+26-8	3254-3256	''	$(	_	
+26-9	3257-3270	herausgegeben	VVPP	_	
+26-10	3271-3272	,	$,	_	
+26-11	3273-3276	das	PRELS	_	
+26-12	3277-3281	sich	PRF	_	
+26-13	3282-3285	mit	APPR	_	
+26-14	3286-3292	seiner	PPOSAT	_	
+26-15	3293-3303	russischen	ADJA	LOCderiv	
+26-16	3304-3309	Reise	NN	_	
+26-17	3310-3321	beschäftigt	VVFIN	_	
+26-18	3322-3323	.	$.	_	
+
+#Text=Mir ist es noch nicht zu Gesicht gekommen .
+27-1	3325-3328	Mir	PPER	_	
+27-2	3329-3332	ist	VAFIN	_	
+27-3	3333-3335	es	PPER	_	
+27-4	3336-3340	noch	ADV	_	
+27-5	3341-3346	nicht	PTKNEG	_	
+27-6	3347-3349	zu	APPR	_	
+27-7	3350-3357	Gesicht	NN	_	
+27-8	3358-3366	gekommen	VVPP	_	
+27-9	3367-3368	.	$.	_	
+
+#Text=Hier lasse ich eine Bitte einflie\u00DFen : Du hast , glaube ich , manche Gelegenheit , Leute , die etwas davon halten k\u00F6nnen , mit meinen `` Deutschen Menschen '' bekannt zu machen .
+28-1	3370-3374	Hier	ADV	_	
+28-2	3375-3380	lasse	VVFIN	_	
+28-3	3381-3384	ich	PPER	_	
+28-4	3385-3389	eine	ART	_	
+28-5	3390-3395	Bitte	NN	_	
+28-6	3396-3406	einfließen	VVINF	_	
+28-7	3407-3408	:	$.	_	
+28-8	3409-3411	Du	PPER	_	
+28-9	3412-3416	hast	VAFIN	_	
+28-10	3417-3418	,	$,	_	
+28-11	3419-3425	glaube	VVFIN	_	
+28-12	3426-3429	ich	PPER	_	
+28-13	3430-3431	,	$,	_	
+28-14	3432-3438	manche	PIAT	_	
+28-15	3439-3450	Gelegenheit	NN	_	
+28-16	3451-3452	,	$,	_	
+28-17	3453-3458	Leute	NN	_	
+28-18	3459-3460	,	$,	_	
+28-19	3461-3464	die	PRELS	_	
+28-20	3465-3470	etwas	PIS	_	
+28-21	3471-3476	davon	PROAV	_	
+28-22	3477-3483	halten	VVINF	_	
+28-23	3484-3490	können	VMINF	_	
+28-24	3491-3492	,	$,	_	
+28-25	3493-3496	mit	APPR	_	
+28-26	3497-3503	meinen	PPOSAT	_	
+28-27	3504-3506	``	$(	_	
+28-28	3507-3516	Deutschen	ADJA	LIT[17]	
+28-29	3517-3525	Menschen	NN	LIT[17]	
+28-30	3526-3528	''	$(	_	
+28-31	3529-3536	bekannt	ADJD	_	
+28-32	3537-3539	zu	PTKZU	_	
+28-33	3540-3546	machen	VVINF	_	
+28-34	3547-3548	.	$.	_	
+
+#Text=Vers\u00E4ume sie nicht .
+29-1	3550-3558	Versäume	VVIMP	_	
+29-2	3559-3562	sie	PPER	_	
+29-3	3563-3568	nicht	PTKNEG	_	
+29-4	3569-3570	.	$.	_	
+
+#Text=Mit welcher Freude ich den Le\u00DFkow erhalten habe , brauche ich Dir kaum zu sagen .
+30-1	3572-3575	Mit	APPR	_	
+30-2	3576-3583	welcher	PWAT	_	
+30-3	3584-3590	Freude	NN	_	
+30-4	3591-3594	ich	PPER	_	
+30-5	3595-3598	den	ART	_	
+30-6	3599-3605	Leßkow	NE	LIT	
+30-7	3606-3614	erhalten	VVPP	_	
+30-8	3615-3619	habe	VAFIN	_	
+30-9	3620-3621	,	$,	_	
+30-10	3622-3629	brauche	VVFIN	_	
+30-11	3630-3633	ich	PPER	_	
+30-12	3634-3637	Dir	PPER	_	
+30-13	3638-3642	kaum	ADV	_	
+30-14	3643-3645	zu	PTKZU	_	
+30-15	3646-3651	sagen	VVINF	_	
+30-16	3652-3653	.	$.	_	
+
+#Text=Gro\u00DF ist meine Betru\u0308bnis , da\u00DF er zur Auskehr aufspielt .
+31-1	3655-3659	Groß	ADJD	_	
+31-2	3660-3663	ist	VAFIN	_	
+31-3	3664-3669	meine	PPOSAT	_	
+31-4	3670-3680	Betrübnis	NN	_	
+31-5	3681-3682	,	$,	_	
+31-6	3683-3686	daß	KOUS	_	
+31-7	3687-3689	er	PPER	_	
+31-8	3690-3693	zur	APPRART	_	
+31-9	3694-3701	Auskehr	NN	_	
+31-10	3702-3711	aufspielt	VVFIN	_	
+31-11	3712-3713	.	$.	_	
+
+#Text=Kommst Du im Oktober bestimmt nach Paris ?
+32-1	3715-3721	Kommst	VVFIN	_	
+32-2	3722-3724	Du	PPER	_	
+32-3	3725-3727	im	APPRART	_	
+32-4	3728-3735	Oktober	NN	_	
+32-5	3736-3744	bestimmt	ADJD	_	
+32-6	3745-3749	nach	APPR	_	
+32-7	3750-3755	Paris	NE	LOC	
+32-8	3756-3757	?	$.	_	
+
+#Text=Dann mu\u00DFt Du jetzt schon zwei ( in Ziffern : 2 ) Abende fu\u0308r uns reservieren .
+33-1	3759-3763	Dann	ADV	_	
+33-2	3764-3768	mußt	VMFIN	_	
+33-3	3769-3771	Du	PPER	_	
+33-4	3772-3777	jetzt	ADV	_	
+33-5	3778-3783	schon	ADV	_	
+33-6	3784-3788	zwei	CARD	_	
+33-7	3789-3790	(	$(	_	
+33-8	3791-3793	in	APPR	_	
+33-9	3794-3801	Ziffern	NN	_	
+33-10	3802-3803	:	$.	_	
+33-11	3804-3805	2	CARD	_	
+33-12	3806-3807	)	$(	_	
+33-13	3808-3814	Abende	NN	_	
+33-14	3815-3819	für	APPR	_	
+33-15	3820-3823	uns	PPER	_	
+33-16	3824-3835	reservieren	VVINF	_	
+33-17	3836-3837	.	$.	_	
+
+#Text=Hoffentlich hast Du bis dahin einige von den sieben Fakult\u00E4tsschwaben mit dem Morgenstern Deines `` Weigel '' niedergeblitzt !
+34-1	3839-3850	Hoffentlich	ADV	_	
+34-2	3851-3855	hast	VAFIN	_	
+34-3	3856-3858	Du	PPER	_	
+34-4	3859-3862	bis	APPR	_	
+34-5	3863-3868	dahin	PROAV	_	
+34-6	3869-3875	einige	PIS	_	
+34-7	3876-3879	von	APPR	_	
+34-8	3880-3883	den	ART	_	
+34-9	3884-3890	sieben	CARD	_	
+34-10	3891-3908	Fakultätsschwaben	NN	_	
+34-11	3909-3912	mit	APPR	_	
+34-12	3913-3916	dem	ART	_	
+34-13	3917-3928	Morgenstern	NN	_	
+34-14	3929-3935	Deines	PPOSAT	_	
+34-15	3936-3938	``	$(	_	
+34-16	3939-3945	Weigel	NE	LIT	
+34-17	3946-3948	''	$(	_	
+34-18	3949-3963	niedergeblitzt	VVPP	_	
+34-19	3964-3965	!	$.	_	
+
+#Text=Nur weil ich Wert darauf lege , bei Theophrast als ein Ehrenmann zu gelten , lege ich die 35 cts-Marke bei .
+35-1	3967-3970	Nur	ADV	_	
+35-2	3971-3975	weil	KOUS	_	
+35-3	3976-3979	ich	PPER	_	
+35-4	3980-3984	Wert	NN	_	
+35-5	3985-3991	darauf	PROAV	_	
+35-6	3992-3996	lege	VVFIN	_	
+35-7	3997-3998	,	$,	_	
+35-8	3999-4002	bei	APPR	_	
+35-9	4003-4013	Theophrast	NE	PER	
+35-10	4014-4017	als	APPR	_	
+35-11	4018-4021	ein	ART	_	
+35-12	4022-4031	Ehrenmann	NN	_	
+35-13	4032-4034	zu	PTKZU	_	
+35-14	4035-4041	gelten	VVINF	_	
+35-15	4042-4043	,	$,	_	
+35-16	4044-4048	lege	VVFIN	_	
+35-17	4049-4052	ich	PPER	_	
+35-18	4053-4056	die	ART	_	
+35-19	4057-4059	35	CARD	_	
+35-20	4060-4069	cts-Marke	NN	_	
+35-21	4070-4073	bei	PTKVZ	_	
+35-22	4074-4075	.	$.	_	
+
+#Text=Ich trenne mich schwer von ihr , weil sie Stefan gewi\u00DF fehlt .
+36-1	4077-4080	Ich	PPER	_	
+36-2	4081-4087	trenne	VVFIN	_	
+36-3	4088-4092	mich	PRF	_	
+36-4	4093-4099	schwer	ADJD	_	
+36-5	4100-4103	von	APPR	_	
+36-6	4104-4107	ihr	PPER	_	
+36-7	4108-4109	,	$,	_	
+36-8	4110-4114	weil	KOUS	_	
+36-9	4115-4118	sie	PPER	_	
+36-10	4119-4125	Stefan	NE	PER	
+36-11	4126-4131	gewiß	ADV	_	
+36-12	4132-4137	fehlt	VVFIN	_	
+36-13	4138-4139	.	$.	_	
+
+#Text=Damit er aber sieht , da\u00DF ein Ehrenmann ein gentilhomme ist , lege ich ihm noch ein paar andere dazu .
+37-1	4141-4146	Damit	PROAV	_	
+37-2	4147-4149	er	PPER	_	
+37-3	4150-4154	aber	ADV	_	
+37-4	4155-4160	sieht	VVFIN	_	
+37-5	4161-4162	,	$,	_	
+37-6	4163-4166	daß	KOUS	_	
+37-7	4167-4170	ein	ART	_	
+37-8	4171-4180	Ehrenmann	NN	_	
+37-9	4181-4184	ein	ART	_	
+37-10	4185-4196	gentilhomme	FM	_	
+37-11	4197-4200	ist	VAFIN	_	
+37-12	4201-4202	,	$,	_	
+37-13	4203-4207	lege	VVFIN	_	
+37-14	4208-4211	ich	PPER	_	
+37-15	4212-4215	ihm	PPER	_	
+37-16	4216-4220	noch	ADV	_	
+37-17	4221-4224	ein	ART	_	
+37-18	4225-4229	paar	PIAT	_	
+37-19	4230-4236	andere	ADJA	_	
+37-20	4237-4241	dazu	PTKVZ	_	
+37-21	4242-4243	.	$.	_	
+
+#Text=Leider werde ich Ende des Monats , zum Philosophenkongre\u00DF , wieder in Paris sein mu\u0308ssen .
+38-1	4245-4251	Leider	ADV	_	
+38-2	4252-4257	werde	VAFIN	_	
+38-3	4258-4261	ich	PPER	_	
+38-4	4262-4266	Ende	NN	_	
+38-5	4267-4270	des	ART	_	
+38-6	4271-4277	Monats	NN	_	
+38-7	4278-4279	,	$,	_	
+38-8	4280-4283	zum	APPRART	_	
+38-9	4284-4302	Philosophenkongreß	NN	_	
+38-10	4303-4304	,	$,	_	
+38-11	4305-4311	wieder	ADV	_	
+38-12	4312-4314	in	APPR	_	
+38-13	4315-4320	Paris	NE	LOC	
+38-14	4321-4325	sein	VAINF	_	
+38-15	4326-4333	müssen	VMINF	_	
+38-16	4334-4335	.	$.	_	
+
+#Text=Schreibe mir , bald und noch hierher .
+39-1	4337-4345	Schreibe	VVIMP	_	
+39-2	4346-4349	mir	PPER	_	
+39-3	4350-4351	,	$,	_	
+39-4	4352-4356	bald	ADV	_	
+39-5	4357-4360	und	KON	_	
+39-6	4361-4365	noch	ADV	_	
+39-7	4366-4373	hierher	ADV	_	
+39-8	4374-4375	.	$.	_	
+
+#Text=Und sei herzlich bedankt fu\u0308r Deine Einladung .
+40-1	4377-4380	Und	KON	_	
+40-2	4381-4384	sei	VAIMP	_	
+40-3	4385-4393	herzlich	ADJD	_	
+40-4	4394-4401	bedankt	VVPP	_	
+40-5	4402-4406	für	APPR	_	
+40-6	4407-4412	Deine	PPOSAT	_	
+40-7	4413-4422	Einladung	NN	_	
+40-8	4423-4424	.	$.	_	
+
+#Text=Nur denke ich , leider , kaum , so bald in die Schweiz zu kommen .
+41-1	4426-4429	Nur	ADV	_	
+41-2	4430-4435	denke	VVFIN	_	
+41-3	4436-4439	ich	PPER	_	
+41-4	4440-4441	,	$,	_	
+41-5	4442-4448	leider	ADV	_	
+41-6	4449-4450	,	$,	_	
+41-7	4451-4455	kaum	ADV	_	
+41-8	4456-4457	,	$,	_	
+41-9	4458-4460	so	ADV	_	
+41-10	4461-4465	bald	ADV	_	
+41-11	4466-4468	in	APPR	_	
+41-12	4469-4472	die	ART	_	
+41-13	4473-4480	Schweiz	NE	LOC	
+41-14	4481-4483	zu	PTKZU	_	
+41-15	4484-4490	kommen	VVINF	_	
+41-16	4491-4492	.	$.	_	
+
+#Text=Und dieser Dank gilt Deiner Frau ebenso .
+42-1	4494-4497	Und	KON	_	
+42-2	4498-4504	dieser	PDAT	_	
+42-3	4505-4509	Dank	NN	_	
+42-4	4510-4514	gilt	VVFIN	_	
+42-5	4515-4521	Deiner	PPOSAT	_	
+42-6	4522-4526	Frau	NN	_	
+42-7	4527-4533	ebenso	ADV	_	
+42-8	4534-4535	.	$.	_	
+
+#Text=Gru\u0308\u00DFe sie von mir und sei selbst herzlichst gegru\u0308\u00DFt .
+43-1	4537-4543	Grüße	VVIMP	_	
+43-2	4544-4547	sie	PPER	_	
+43-3	4548-4551	von	APPR	_	
+43-4	4552-4555	mir	PPER	_	
+43-5	4556-4559	und	KON	_	
+43-6	4560-4563	sei	VAIMP	_	
+43-7	4564-4570	selbst	ADV	_	
+43-8	4571-4581	herzlichst	ADV	_	
+43-9	4582-4590	gegrüßt	VVPP	_	
+43-10	4591-4592	.	$.	_	
+
+#Text=Dein Walter Benjamin
+44-1	4594-4598	Dein	PPOSAT	_	
+44-2	4599-4605	Walter	NE	PER[25]	
+44-3	4606-4614	Benjamin	NE	PER[25]	

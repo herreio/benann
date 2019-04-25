@@ -1,0 +1,282 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS|PosValue
+#T_SP=de.tudarmstadt.ukp.dkpro.core.api.ner.type.NamedEntity|value
+
+
+#Text=Lieber Herr Horkheimer , ich danke Ihnen fu\u0308r Ihren freundlichen Brief vom 17ten August .
+1-1	0-6	Lieber	ADJA	_	
+1-2	7-11	Herr	NN	_	
+1-3	12-22	Horkheimer	NE	PER	
+1-4	23-24	,	$,	_	
+1-5	25-28	ich	PPER	_	
+1-6	29-34	danke	VVFIN	_	
+1-7	35-40	Ihnen	PPER	_	
+1-8	41-45	für	APPR	_	
+1-9	46-51	Ihren	PPOSAT	_	
+1-10	52-64	freundlichen	ADJA	_	
+1-11	65-70	Brief	NN	_	
+1-12	71-74	vom	APPRART	_	
+1-13	75-80	17ten	ADJA	_	
+1-14	81-87	August	NN	_	
+1-15	88-89	.	$.	_	
+
+#Text=Meinen ersten aus D\u00E4nemark werden Sie inzwischen erhalten haben .
+2-1	91-97	Meinen	PPOSS	_	
+2-2	98-104	ersten	ADJA	_	
+2-3	105-108	aus	APPR	_	
+2-4	109-117	Dänemark	NE	LOC	
+2-5	118-124	werden	VAFIN	_	
+2-6	125-128	Sie	PPER	_	
+2-7	129-139	inzwischen	ADV	_	
+2-8	140-148	erhalten	VVPP	_	
+2-9	149-154	haben	VAINF	_	
+2-10	155-156	.	$.	_	
+
+#Text=Es ist mir zuguterletzt sehr willkommen gewesen , da\u00DF Sie mir bezu\u0308glich der Tagung in Pontigny freie Hand gelassen haben und ich habe Ursache , Ihnen besonders dafu\u0308r zu danken .
+3-1	158-160	Es	PPER	_	
+3-2	161-164	ist	VAFIN	_	
+3-3	165-168	mir	PPER	_	
+3-4	169-181	zuguterletzt	ADV	_	
+3-5	182-186	sehr	ADV	_	
+3-6	187-197	willkommen	ADJD	_	
+3-7	198-205	gewesen	VAPP	_	
+3-8	206-207	,	$,	_	
+3-9	208-211	daß	KOUS	_	
+3-10	212-215	Sie	PPER	_	
+3-11	216-219	mir	PPER	_	
+3-12	220-230	bezüglich	APPR	_	
+3-13	231-234	der	ART	_	
+3-14	235-241	Tagung	NN	_	
+3-15	242-244	in	APPR	_	
+3-16	245-253	Pontigny	NE	LOC	
+3-17	254-259	freie	ADJA	_	
+3-18	260-264	Hand	NN	_	
+3-19	265-273	gelassen	VVPP	_	
+3-20	274-279	haben	VAFIN	_	
+3-21	280-283	und	KON	_	
+3-22	284-287	ich	PPER	_	
+3-23	288-292	habe	VAFIN	_	
+3-24	293-300	Ursache	NN	_	
+3-25	301-302	,	$,	_	
+3-26	303-308	Ihnen	PPER	_	
+3-27	309-318	besonders	ADV	_	
+3-28	319-325	dafür	PROAV	_	
+3-29	326-328	zu	PTKZU	_	
+3-30	329-335	danken	VVINF	_	
+3-31	336-337	.	$.	_	
+
+#Text=Ich werde nicht an ihr teilnehmen .
+4-1	339-342	Ich	PPER	_	
+4-2	343-348	werde	VAFIN	_	
+4-3	349-354	nicht	PTKNEG	_	
+4-4	355-357	an	APPR	_	
+4-5	358-361	ihr	PPER	_	
+4-6	362-372	teilnehmen	VVINF	_	
+4-7	373-374	.	$.	_	
+
+#Text=Die Schiffsverbindungen mit dem Kontinent liegen so , da\u00DF ich , um rechtzeitig zum Kongre\u00DF zu kommen , eine volle Woche vorher von hier abfahren mu\u0308\u00DFte .
+5-1	376-379	Die	ART	_	
+5-2	380-399	Schiffsverbindungen	NN	_	
+5-3	400-403	mit	APPR	_	
+5-4	404-407	dem	ART	_	
+5-5	408-417	Kontinent	NN	_	
+5-6	418-424	liegen	VVFIN	_	
+5-7	425-427	so	ADV	_	
+5-8	428-429	,	$,	_	
+5-9	430-433	daß	KOUS	_	
+5-10	434-437	ich	PPER	_	
+5-11	438-439	,	$,	_	
+5-12	440-442	um	KOUI	_	
+5-13	443-454	rechtzeitig	ADJD	_	
+5-14	455-458	zum	APPRART	_	
+5-15	459-466	Kongreß	NN	_	
+5-16	467-469	zu	PTKZU	_	
+5-17	470-476	kommen	VVINF	_	
+5-18	477-478	,	$,	_	
+5-19	479-483	eine	ART	_	
+5-20	484-489	volle	ADJA	_	
+5-21	490-495	Woche	NN	_	
+5-22	496-502	vorher	ADV	_	
+5-23	503-506	von	APPR	_	
+5-24	507-511	hier	ADV	_	
+5-25	512-520	abfahren	VVINF	_	
+5-26	521-527	müßte	VMFIN	_	
+5-27	528-529	.	$.	_	
+
+#Text=Diese Woche ginge sowohl fu\u0308r meine Erholung wie fu\u0308r meine Arbeit ( die hier erfreulicherweise zusammenfallen ) verloren ; auch wu\u0308\u00DFte ich , da ich mein pariser Zimmer bis Ende September vermietet habe , nicht recht , wo ich sie zubringen sollte .
+6-1	531-536	Diese	PDAT	_	
+6-2	537-542	Woche	NN	_	
+6-3	543-548	ginge	VVFIN	_	
+6-4	549-555	sowohl	KON	_	
+6-5	556-560	für	APPR	_	
+6-6	561-566	meine	PPOSAT	_	
+6-7	567-575	Erholung	NN	_	
+6-8	576-579	wie	KOKOM	_	
+6-9	580-584	für	ADJD	_	
+6-10	585-590	meine	PPOSAT	_	
+6-11	591-597	Arbeit	NN	_	
+6-12	598-599	(	$(	_	
+6-13	600-603	die	PRELS	_	
+6-14	604-608	hier	ADV	_	
+6-15	609-626	erfreulicherweise	ADV	_	
+6-16	627-641	zusammenfallen	VVFIN	_	
+6-17	642-643	)	$(	_	
+6-18	644-652	verloren	VVPP	_	
+6-19	653-654	;	$.	_	
+6-20	655-659	auch	ADV	_	
+6-21	660-666	wüßte	VVFIN	_	
+6-22	667-670	ich	PPER	_	
+6-23	671-672	,	$,	_	
+6-24	673-675	da	KOUS	_	
+6-25	676-679	ich	PPER	_	
+6-26	680-684	mein	PPOSAT	_	
+6-27	685-692	pariser	ADJA	LOCderiv	
+6-28	693-699	Zimmer	NN	_	
+6-29	700-703	bis	APPR	_	
+6-30	704-708	Ende	NN	_	
+6-31	709-718	September	NN	_	
+6-32	719-728	vermietet	VVPP	_	
+6-33	729-733	habe	VAFIN	_	
+6-34	734-735	,	$,	_	
+6-35	736-741	nicht	PTKNEG	_	
+6-36	742-747	recht	ADJD	_	
+6-37	748-749	,	$,	_	
+6-38	750-752	wo	PWAV	_	
+6-39	753-756	ich	PPER	_	
+6-40	757-760	sie	PPER	_	
+6-41	761-770	zubringen	VVINF	_	
+6-42	771-777	sollte	VMFIN	_	
+6-43	778-779	.	$.	_	
+
+#Text=So werde ich vorderhand in D\u00E4nemark bleiben .
+7-1	781-783	So	ADV	_	
+7-2	784-789	werde	VAFIN	_	
+7-3	790-793	ich	PPER	_	
+7-4	794-804	vorderhand	ADV	_	
+7-5	805-807	in	APPR	_	
+7-6	808-816	Dänemark	NE	LOC	
+7-7	817-824	bleiben	VVINF	_	
+7-8	825-826	.	$.	_	
+
+#Text=Es ist im u\u0308brigen , darin werden wir gewi\u00DF gleich empfinden , ein du\u0308sterer Sommer .
+8-1	828-830	Es	PPER	_	
+8-2	831-834	ist	VAFIN	_	
+8-3	835-837	im	PTKA	_	
+8-4	838-846	übrigen	ADJA	_	
+8-5	847-848	,	$,	_	
+8-6	849-854	darin	PROAV	_	
+8-7	855-861	werden	VAFIN	_	
+8-8	862-865	wir	PPER	_	
+8-9	866-871	gewiß	ADV	_	
+8-10	872-878	gleich	ADV	_	
+8-11	879-888	empfinden	VVINF	_	
+8-12	889-890	,	$,	_	
+8-13	891-894	ein	ART	_	
+8-14	895-904	düsterer	ADJA	_	
+8-15	905-911	Sommer	NN	_	
+8-16	912-913	.	$.	_	
+
+#Text=Ich verfolge die Ereignisse in Ru\u00DFland natu\u0308rlich sehr aufmerksam .
+9-1	915-918	Ich	PPER	_	
+9-2	919-927	verfolge	VVFIN	_	
+9-3	928-931	die	ART	_	
+9-4	932-942	Ereignisse	NN	_	
+9-5	943-945	in	APPR	_	
+9-6	946-953	Rußland	NE	LOC	
+9-7	954-964	natürlich	ADV	_	
+9-8	965-969	sehr	ADV	_	
+9-9	970-980	aufmerksam	ADJD	_	
+9-10	981-982	.	$.	_	
+
+#Text=Und mir scheint , ich bin nicht der einzige , der mit seinem Latein zuende ist .
+10-1	984-987	Und	KON	_	
+10-2	988-991	mir	PPER	_	
+10-3	992-999	scheint	VVFIN	_	
+10-4	1000-1001	,	$,	_	
+10-5	1002-1005	ich	PPER	_	
+10-6	1006-1009	bin	VAFIN	_	
+10-7	1010-1015	nicht	PTKNEG	_	
+10-8	1016-1019	der	ART	_	
+10-9	1020-1027	einzige	ADJA	_	
+10-10	1028-1029	,	$,	_	
+10-11	1030-1033	der	PRELS	_	
+10-12	1034-1037	mit	APPR	_	
+10-13	1038-1044	seinem	PPOSAT	_	
+10-14	1045-1051	Latein	NN	_	
+10-15	1052-1058	zuende	ADV	_	
+10-16	1059-1062	ist	VAFIN	_	
+10-17	1063-1064	.	$.	_	
+
+#Text=... Aber wer wei\u00DF , was auf der weltpolitischen Tagesordnung steht , wenn wir uns in hoffentlich nicht ferner Zeit wiedersehen .
+11-1	1066-1069	...	$(	_	
+11-2	1070-1074	Aber	KON	_	
+11-3	1075-1078	wer	PWS	_	
+11-4	1079-1083	weiß	VVFIN	_	
+11-5	1084-1085	,	$,	_	
+11-6	1086-1089	was	PWS	_	
+11-7	1090-1093	auf	APPR	_	
+11-8	1094-1097	der	ART	_	
+11-9	1098-1113	weltpolitischen	ADJA	_	
+11-10	1114-1126	Tagesordnung	NN	_	
+11-11	1127-1132	steht	VVFIN	_	
+11-12	1133-1134	,	$,	_	
+11-13	1135-1139	wenn	KOUS	_	
+11-14	1140-1143	wir	PPER	_	
+11-15	1144-1147	uns	PRF	_	
+11-16	1148-1150	in	APPR	_	
+11-17	1151-1162	hoffentlich	ADV	_	
+11-18	1163-1168	nicht	PTKNEG	_	
+11-19	1169-1175	ferner	ADV	_	
+11-20	1176-1180	Zeit	NN	_	
+11-21	1181-1192	wiedersehen	VVFIN	_	
+11-22	1193-1194	.	$.	_	
+
+#Text=Ich hoffe , da\u00DF Sie , ungeachtet der Hitze , zum Genu\u00DF Ihres Sommeraufenthalts kommen .
+12-1	1196-1199	Ich	PPER	_	
+12-2	1200-1205	hoffe	VVFIN	_	
+12-3	1206-1207	,	$,	_	
+12-4	1208-1211	daß	KOUS	_	
+12-5	1212-1215	Sie	PPER	_	
+12-6	1216-1217	,	$,	_	
+12-7	1218-1228	ungeachtet	APPR	_	
+12-8	1229-1232	der	ART	_	
+12-9	1233-1238	Hitze	NN	_	
+12-10	1239-1240	,	$,	_	
+12-11	1241-1244	zum	APPRART	_	
+12-12	1245-1250	Genuß	NN	_	
+12-13	1251-1256	Ihres	PPOSAT	_	
+12-14	1257-1274	Sommeraufenthalts	NN	_	
+12-15	1275-1281	kommen	VVFIN	_	
+12-16	1282-1283	.	$.	_	
+
+#Text=Hier macht sich die Sonne eher rar .
+13-1	1285-1289	Hier	ADV	_	
+13-2	1290-1295	macht	VVFIN	_	
+13-3	1296-1300	sich	PRF	_	
+13-4	1301-1304	die	ART	_	
+13-5	1305-1310	Sonne	NN	_	
+13-6	1311-1315	eher	ADV	_	
+13-7	1316-1319	rar	ADJD	_	
+13-8	1320-1321	.	$.	_	
+
+#Text=Mit den herzlichsten Gru\u0308\u00DFen , die ich Sie bitte auch Ihrer Frau und Herrn Pollock zu sagen Ihr Walter Benjamin
+14-1	1323-1326	Mit	APPR	_	
+14-2	1327-1330	den	ART	_	
+14-3	1331-1343	herzlichsten	ADJA	_	
+14-4	1344-1351	Grüßen	NN	_	
+14-5	1352-1353	,	$,	_	
+14-6	1354-1357	die	PRELS	_	
+14-7	1358-1361	ich	PPER	_	
+14-8	1362-1365	Sie	PPER	_	
+14-9	1366-1371	bitte	VVFIN	_	
+14-10	1372-1376	auch	ADV	_	
+14-11	1377-1382	Ihrer	PPOSAT	_	
+14-12	1383-1387	Frau	NN	_	
+14-13	1388-1391	und	KON	_	
+14-14	1392-1397	Herrn	NN	_	
+14-15	1398-1405	Pollock	NE	PER	
+14-16	1406-1408	zu	PTKZU	_	
+14-17	1409-1414	sagen	VVINF	_	
+14-18	1415-1418	Ihr	PPOSAT	_	
+14-19	1419-1425	Walter	NE	PER[8]	
+14-20	1426-1434	Benjamin	NE	PER[8]	

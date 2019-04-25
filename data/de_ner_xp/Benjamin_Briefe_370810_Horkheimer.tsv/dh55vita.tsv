@@ -1,0 +1,265 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS|PosValue
+#T_SP=de.tudarmstadt.ukp.dkpro.core.api.ner.type.NamedEntity|value
+
+
+#Text=Lieber Herr Horkheimer , diesen Augenblick h\u00F6re ich zu meiner Freude , da\u00DF Sie im Laufe des August nach Europa kommen .
+1-1	0-6	Lieber	ADJA	_	
+1-2	7-11	Herr	NN	_	
+1-3	12-22	Horkheimer	NE	PER	
+1-4	23-24	,	$,	_	
+1-5	25-31	diesen	PDAT	_	
+1-6	32-42	Augenblick	NN	_	
+1-7	43-47	höre	VVFIN	_	
+1-8	48-51	ich	PPER	_	
+1-9	52-54	zu	PTKZU	_	
+1-10	55-61	meiner	PPOSAT	_	
+1-11	62-68	Freude	NN	_	
+1-12	69-70	,	$,	_	
+1-13	71-74	daß	KOUS	_	
+1-14	75-78	Sie	PPER	_	
+1-15	79-81	im	APPRART	_	
+1-16	82-87	Laufe	NN	_	
+1-17	88-91	des	ART	_	
+1-18	92-98	August	NN	_	
+1-19	99-103	nach	APPR	_	
+1-20	104-110	Europa	NE	LOC	
+1-21	111-117	kommen	VVFIN	_	
+1-22	118-119	.	$.	_	
+
+#Text=Ich hoffe , das bedeutet da\u00DF ich Sie noch in diesem oder Anfang des n\u00E4chsten Monats sehe .
+2-1	121-124	Ich	PPER	_	
+2-2	125-130	hoffe	VVFIN	_	
+2-3	131-132	,	$,	_	
+2-4	133-136	das	PRELS	_	
+2-5	137-145	bedeutet	VVFIN	_	
+2-6	146-149	daß	KOUS	_	
+2-7	150-153	ich	PPER	_	
+2-8	154-157	Sie	PPER	_	
+2-9	158-162	noch	ADV	_	
+2-10	163-165	in	APPR	_	
+2-11	166-172	diesem	PDAT	_	
+2-12	173-177	oder	KON	_	
+2-13	178-184	Anfang	NN	_	
+2-14	185-188	des	ART	_	
+2-15	189-197	nächsten	ADJA	_	
+2-16	198-204	Monats	NN	_	
+2-17	205-209	sehe	VVFIN	_	
+2-18	210-211	.	$.	_	
+
+#Text=Ich stelle darum die Gegenst\u00E4nde , u\u0308ber die ich Ihnen dieser Tage brieflich berichten wollte , zuru\u0308ck und beschr\u00E4nke mich darauf , Ihnen zu sagen , wie sehr ich mich u\u0308ber das bevorstehende Erscheinen des `` Fuchs '' freue .
+3-1	213-216	Ich	PPER	_	
+3-2	217-223	stelle	VVFIN	_	
+3-3	224-229	darum	PROAV	_	
+3-4	230-233	die	ART	_	
+3-5	234-245	Gegenstände	NN	_	
+3-6	246-247	,	$,	_	
+3-7	248-253	über	APPR	_	
+3-8	254-257	die	PRELS	_	
+3-9	258-261	ich	PPER	_	
+3-10	262-267	Ihnen	PPER	_	
+3-11	268-274	dieser	PDAT	_	
+3-12	275-279	Tage	NN	_	
+3-13	280-289	brieflich	ADJD	_	
+3-14	290-299	berichten	VVINF	_	
+3-15	300-306	wollte	VMFIN	_	
+3-16	307-308	,	$,	_	
+3-17	309-316	zurück	PTKVZ	_	
+3-18	317-320	und	KON	_	
+3-19	321-331	beschränke	VVFIN	_	
+3-20	332-336	mich	PPER	_	
+3-21	337-343	darauf	PROAV	_	
+3-22	344-345	,	$,	_	
+3-23	346-351	Ihnen	PPER	_	
+3-24	352-354	zu	PTKZU	_	
+3-25	355-360	sagen	VVINF	_	
+3-26	361-362	,	$,	_	
+3-27	363-366	wie	PWAV	_	
+3-28	367-371	sehr	ADV	_	
+3-29	372-375	ich	PPER	_	
+3-30	376-380	mich	PRF	_	
+3-31	381-386	über	ADV	_	
+3-32	387-390	das	ART	_	
+3-33	391-404	bevorstehende	ADJA	_	
+3-34	405-415	Erscheinen	NN	_	
+3-35	416-419	des	ART	_	
+3-36	420-422	``	$(	_	
+3-37	423-428	Fuchs	NE	LIT	
+3-38	429-431	''	$(	_	
+3-39	432-437	freue	VVFIN	_	
+3-40	438-439	.	$.	_	
+
+#Text=Ihren Aufsatz '' Traditionelle und kritische Theorie '' habe ich gelesen ; wie Sie vermuten werden mit g\u00E4nzlicher Zustimmung .
+4-1	441-446	Ihren	PPOSAT	_	
+4-2	447-454	Aufsatz	NN	_	
+4-3	455-457	''	$(	_	
+4-4	458-471	Traditionelle	ADJA	LIT[4]	
+4-5	472-475	und	KON	LIT[4]	
+4-6	476-485	kritische	ADJA	LIT[4]	
+4-7	486-493	Theorie	NN	LIT[4]	
+4-8	494-496	''	$(	_	
+4-9	497-501	habe	VAFIN	_	
+4-10	502-505	ich	PPER	_	
+4-11	506-513	gelesen	VVPP	_	
+4-12	514-515	;	$.	_	
+4-13	516-519	wie	PWAV	_	
+4-14	520-523	Sie	PPER	_	
+4-15	524-532	vermuten	VVINF	_	
+4-16	533-539	werden	VAFIN	_	
+4-17	540-543	mit	APPR	_	
+4-18	544-554	gänzlicher	ADJA	_	
+4-19	555-565	Zustimmung	NN	_	
+4-20	566-567	.	$.	_	
+
+#Text=Wie Sie die Atmosph\u00E4re , in der unsere Arbeit vor sich geht , kennzeichnen und welche Ursachen Sie ihrer Isolierung geben , betrifft mich besonders .
+5-1	569-572	Wie	PWAV	_	
+5-2	573-576	Sie	PPER	_	
+5-3	577-580	die	ART	_	
+5-4	581-591	Atmosphäre	NN	_	
+5-5	592-593	,	$,	_	
+5-6	594-596	in	APPR	_	
+5-7	597-600	der	PRELS	_	
+5-8	601-607	unsere	ADJA	_	
+5-9	608-614	Arbeit	NN	_	
+5-10	615-618	vor	APPR	_	
+5-11	619-623	sich	PRF	_	
+5-12	624-628	geht	VVFIN	_	
+5-13	629-630	,	$,	_	
+5-14	631-643	kennzeichnen	VMFIN	_	
+5-15	644-647	und	KON	_	
+5-16	648-654	welche	PWAT	_	
+5-17	655-663	Ursachen	NN	_	
+5-18	664-667	Sie	PPER	_	
+5-19	668-673	ihrer	PPOSAT	_	
+5-20	674-684	Isolierung	NN	_	
+5-21	685-690	geben	VVFIN	_	
+5-22	691-692	,	$,	_	
+5-23	693-701	betrifft	VVFIN	_	
+5-24	702-706	mich	PPER	_	
+5-25	707-716	besonders	ADV	_	
+5-26	717-718	.	$.	_	
+
+#Text=Wir werden gewi\u00DF auch von diesen Dingen sprechen .
+6-1	720-723	Wir	PPER	_	
+6-2	724-730	werden	VAFIN	_	
+6-3	731-736	gewiß	ADV	_	
+6-4	737-741	auch	ADV	_	
+6-5	742-745	von	APPR	_	
+6-6	746-752	diesen	PDAT	_	
+6-7	753-759	Dingen	NN	_	
+6-8	760-768	sprechen	VVINF	_	
+6-9	769-770	.	$.	_	
+
+#Text=Ich verlasse Paris vermutlich am gleichen Tage wie Wiesengrund , n\u00E4mlich am 12ten .
+7-1	772-775	Ich	PPER	_	
+7-2	776-784	verlasse	VVFIN	_	
+7-3	785-790	Paris	NE	LOC	
+7-4	791-801	vermutlich	ADV	_	
+7-5	802-804	am	APPRART	_	
+7-6	805-813	gleichen	ADJA	_	
+7-7	814-818	Tage	NN	_	
+7-8	819-822	wie	KOKOM	_	
+7-9	823-834	Wiesengrund	NE	PER	
+7-10	835-836	,	$,	_	
+7-11	837-844	nämlich	ADV	_	
+7-12	845-847	am	APPRART	_	
+7-13	848-853	12ten	ADJA	_	
+7-14	854-855	.	$.	_	
+
+#Text=Mein Sohn ist mittlerweile in San Remo angekommen .
+8-1	857-861	Mein	PPOSAT	_	
+8-2	862-866	Sohn	NN	_	
+8-3	867-870	ist	VAFIN	_	
+8-4	871-883	mittlerweile	ADV	_	
+8-5	884-886	in	APPR	_	
+8-6	887-890	San	NE	LOC[7]	
+8-7	891-895	Remo	NE	LOC[7]	
+8-8	896-906	angekommen	VVPP	_	
+8-9	907-908	.	$.	_	
+
+#Text=Ich werde mir selbst ein Urteil u\u0308ber seine ju\u0308ngste Entwicklung zu bilden suchen .
+9-1	910-913	Ich	PPER	_	
+9-2	914-919	werde	VAFIN	_	
+9-3	920-923	mir	PPER	_	
+9-4	924-930	selbst	ADV	_	
+9-5	931-934	ein	ART	_	
+9-6	935-941	Urteil	NN	_	
+9-7	942-947	über	APPR	_	
+9-8	948-953	seine	PPOSAT	_	
+9-9	954-962	jüngste	ADJA	_	
+9-10	963-974	Entwicklung	NN	_	
+9-11	975-977	zu	PTKZU	_	
+9-12	978-984	bilden	VVINF	_	
+9-13	985-991	suchen	VVINF	_	
+9-14	992-993	.	$.	_	
+
+#Text=... Darf ich Sie bitten , mir sogleich nach Ihrer Ankunft - wenn nicht noch von New York aus - zu schreiben , wo und wann ich Sie treffen kann ?
+10-1	995-998	...	$(	_	
+10-2	999-1003	Darf	VMFIN	_	
+10-3	1004-1007	ich	PPER	_	
+10-4	1008-1011	Sie	PPER	_	
+10-5	1012-1018	bitten	VVFIN	_	
+10-6	1019-1020	,	$,	_	
+10-7	1021-1024	mir	PPER	_	
+10-8	1025-1033	sogleich	ADV	_	
+10-9	1034-1038	nach	APPR	_	
+10-10	1039-1044	Ihrer	PPOSAT	_	
+10-11	1045-1052	Ankunft	NN	_	
+10-12	1053-1054	-	$(	_	
+10-13	1055-1059	wenn	KOUS	_	
+10-14	1060-1065	nicht	PTKNEG	_	
+10-15	1066-1070	noch	ADV	_	
+10-16	1071-1074	von	APPR	_	
+10-17	1075-1078	New	NE	LOC[8]	
+10-18	1079-1083	York	NE	LOC[8]	
+10-19	1084-1087	aus	APPR	_	
+10-20	1088-1089	-	$(	_	
+10-21	1090-1092	zu	PTKZU	_	
+10-22	1093-1102	schreiben	VVINF	_	
+10-23	1103-1104	,	$,	_	
+10-24	1105-1107	wo	PWAV	_	
+10-25	1108-1111	und	KON	_	
+10-26	1112-1116	wann	PWAV	_	
+10-27	1117-1120	ich	PPER	_	
+10-28	1121-1124	Sie	PPER	_	
+10-29	1125-1132	treffen	VVINF	_	
+10-30	1133-1137	kann	VMFIN	_	
+10-31	1138-1139	?	$.	_	
+
+#Text=Bitte gehen Sie davon aus , da\u00DF ich ohne Schwierigkeiten von einem Tag auf den andern kommen kann , und zwar ebensowohl nach Genf wie nach Paris .
+11-1	1141-1146	Bitte	ADV	_	
+11-2	1147-1152	gehen	VVFIN	_	
+11-3	1153-1156	Sie	PPER	_	
+11-4	1157-1162	davon	PROAV	_	
+11-5	1163-1166	aus	PTKVZ	_	
+11-6	1167-1168	,	$,	_	
+11-7	1169-1172	daß	KOUS	_	
+11-8	1173-1176	ich	PPER	_	
+11-9	1177-1181	ohne	APPR	_	
+11-10	1182-1197	Schwierigkeiten	NN	_	
+11-11	1198-1201	von	APPR	_	
+11-12	1202-1207	einem	ART	_	
+11-13	1208-1211	Tag	NN	_	
+11-14	1212-1215	auf	APPR	_	
+11-15	1216-1219	den	ART	_	
+11-16	1220-1226	andern	ADJA	_	
+11-17	1227-1233	kommen	VVINF	_	
+11-18	1234-1238	kann	VMFIN	_	
+11-19	1239-1240	,	$,	_	
+11-20	1241-1244	und	KON	_	
+11-21	1245-1249	zwar	ADV	_	
+11-22	1250-1260	ebensowohl	ADV	_	
+11-23	1261-1265	nach	APPR	_	
+11-24	1266-1270	Genf	NE	LOC	
+11-25	1271-1274	wie	KOKOM	_	
+11-26	1275-1279	nach	APPR	_	
+11-27	1280-1285	Paris	NE	LOC	
+11-28	1286-1287	.	$.	_	
+
+#Text=Mit herzlichem Gru\u00DF Ihr Walter Benjamin
+12-1	1289-1292	Mit	APPR	_	
+12-2	1293-1303	herzlichem	ADJA	_	
+12-3	1304-1308	Gruß	NN	_	
+12-4	1309-1312	Ihr	PPOSAT	_	
+12-5	1313-1319	Walter	NE	PER[11]	
+12-6	1320-1328	Benjamin	NE	PER[11]	

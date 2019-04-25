@@ -1,0 +1,317 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS|PosValue
+#T_SP=de.tudarmstadt.ukp.dkpro.core.api.ner.type.NamedEntity|value
+
+
+#Text=Lieber Herr Rychner , bis heute schuldete ich Ihnen den Dank fu\u0308r Ihre sehr freundlichen Zeilen vom 9ten Mai .
+1-1	0-6	Lieber	ADJA	_	
+1-2	7-11	Herr	NN	_	
+1-3	12-19	Rychner	NE	PER	
+1-4	20-21	,	$,	_	
+1-5	22-25	bis	APPR	_	
+1-6	26-31	heute	ADV	_	
+1-7	32-41	schuldete	VVFIN	_	
+1-8	42-45	ich	PPER	_	
+1-9	46-51	Ihnen	PPER	_	
+1-10	52-55	den	ART	_	
+1-11	56-60	Dank	NN	_	
+1-12	61-65	für	APPR	_	
+1-13	66-70	Ihre	PPOSAT	_	
+1-14	71-75	sehr	ADV	_	
+1-15	76-88	freundlichen	ADJA	_	
+1-16	89-95	Zeilen	NN	_	
+1-17	96-99	vom	APPRART	_	
+1-18	100-104	9ten	ADJA	_	
+1-19	105-108	Mai	NN	_	
+1-20	109-110	.	$.	_	
+
+#Text=Ich wollte ihn aber mit einer , wenn auch noch so kleinen Beilage versehen .
+2-1	112-115	Ich	PPER	_	
+2-2	116-122	wollte	VMFIN	_	
+2-3	123-126	ihn	PPER	_	
+2-4	127-131	aber	ADV	_	
+2-5	132-135	mit	APPR	_	
+2-6	136-141	einer	ART	_	
+2-7	142-143	,	$,	_	
+2-8	144-148	wenn	KOUS	_	
+2-9	149-153	auch	ADV	_	
+2-10	154-158	noch	ADV	_	
+2-11	159-161	so	ADV	_	
+2-12	162-169	kleinen	ADJA	_	
+2-13	170-177	Beilage	NN	_	
+2-14	178-186	versehen	VVFIN	_	
+2-15	187-188	.	$.	_	
+
+#Text=Wenige Tage nachdem ich Ihnen geschrieben hatte , mu\u00DFte ich aber auf eine Weile nach Genf .
+3-1	190-196	Wenige	PIAT	_	
+3-2	197-201	Tage	NN	_	
+3-3	202-209	nachdem	KOUS	_	
+3-4	210-213	ich	PPER	_	
+3-5	214-219	Ihnen	PPER	_	
+3-6	220-231	geschrieben	VVPP	_	
+3-7	232-237	hatte	VAFIN	_	
+3-8	238-239	,	$,	_	
+3-9	240-245	mußte	VMFIN	_	
+3-10	246-249	ich	PPER	_	
+3-11	250-254	aber	ADV	_	
+3-12	255-258	auf	APPR	_	
+3-13	259-263	eine	ART	_	
+3-14	264-269	Weile	NN	_	
+3-15	270-274	nach	APPR	_	
+3-16	275-279	Genf	NE	LOC	
+3-17	280-281	.	$.	_	
+
+#Text=Daher ist es zu dem geplanten Essay u\u0308ber `` Romancier und Erz\u00E4hler '' noch nicht gekommen .
+4-1	283-288	Daher	PROAV	_	
+4-2	289-292	ist	VAFIN	_	
+4-3	293-295	es	PPER	_	
+4-4	296-298	zu	APPR	_	
+4-5	299-302	dem	ART	_	
+4-6	303-312	geplanten	ADJA	_	
+4-7	313-318	Essay	NN	_	
+4-8	319-324	über	KON	_	
+4-9	325-327	``	$(	_	
+4-10	328-337	Romancier	NN	LIT[3]	
+4-11	338-341	und	KON	LIT[3]	
+4-12	342-350	Erzähler	NN	LIT[3]	
+4-13	351-353	''	$(	_	
+4-14	354-358	noch	ADV	_	
+4-15	359-364	nicht	PTKNEG	_	
+4-16	365-373	gekommen	VVPP	_	
+4-17	374-375	.	$.	_	
+
+#Text=Das inliegende Stu\u0308ckchen wird , hoffe ich , durch seine Ku\u0308rze Ihre Gunst erwerben .
+5-1	377-380	Das	ART	_	
+5-2	381-391	inliegende	ADJA	_	
+5-3	392-402	Stückchen	NN	_	
+5-4	403-407	wird	VAFIN	_	
+5-5	408-409	,	$,	_	
+5-6	410-415	hoffe	VVFIN	_	
+5-7	416-419	ich	PPER	_	
+5-8	420-421	,	$,	_	
+5-9	422-427	durch	APPR	_	
+5-10	428-433	seine	PPOSAT	_	
+5-11	434-440	Kürze	NN	_	
+5-12	441-445	Ihre	PPOSAT	_	
+5-13	446-451	Gunst	NN	_	
+5-14	452-460	erwerben	VVINF	_	
+5-15	461-462	.	$.	_	
+
+#Text=Und nun lassen Sie mich mit diesen Zeilen noch eine Frage verbinden : Ist es redaktionell fu\u0308r Sie tunlich , hin und wieder den Ansto\u00DF zu meiner Mitarbeit durch Zusendung von Neuerscheinungen an mich zu geben ?
+6-1	464-467	Und	KON	_	
+6-2	468-471	nun	ADV	_	
+6-3	472-478	lassen	VVFIN	_	
+6-4	479-482	Sie	PPER	_	
+6-5	483-487	mich	PRF	_	
+6-6	488-491	mit	APPR	_	
+6-7	492-498	diesen	PDAT	_	
+6-8	499-505	Zeilen	NN	_	
+6-9	506-510	noch	ADV	_	
+6-10	511-515	eine	ART	_	
+6-11	516-521	Frage	NN	_	
+6-12	522-531	verbinden	VVINF	_	
+6-13	532-533	:	$.	_	
+6-14	534-537	Ist	VAFIN	_	
+6-15	538-540	es	PPER	_	
+6-16	541-553	redaktionell	ADJD	_	
+6-17	554-558	für	ADJD	_	
+6-18	559-562	Sie	PPER	_	
+6-19	563-570	tunlich	ADJD	_	
+6-20	571-572	,	$,	_	
+6-21	573-576	hin	ADV	_	
+6-22	577-580	und	KON	_	
+6-23	581-587	wieder	ADV	_	
+6-24	588-591	den	ART	_	
+6-25	592-598	Anstoß	NN	_	
+6-26	599-601	zu	APPR	_	
+6-27	602-608	meiner	PPOSAT	_	
+6-28	609-618	Mitarbeit	NN	_	
+6-29	619-624	durch	APPR	_	
+6-30	625-634	Zusendung	NN	_	
+6-31	635-638	von	APPR	_	
+6-32	639-655	Neuerscheinungen	NN	_	
+6-33	656-658	an	APPR	_	
+6-34	659-663	mich	PPER	_	
+6-35	664-666	zu	PTKZU	_	
+6-36	667-672	geben	VVINF	_	
+6-37	673-674	?	$.	_	
+
+#Text=Oder du\u0308rfte ich selbst gelegentlich in solchem Sinne die Initiative ergreifen ?
+7-1	676-680	Oder	KON	_	
+7-2	681-688	dürfte	VMFIN	_	
+7-3	689-692	ich	PPER	_	
+7-4	693-699	selbst	ADV	_	
+7-5	700-712	gelegentlich	ADJD	_	
+7-6	713-715	in	APPR	_	
+7-7	716-723	solchem	PDAT	_	
+7-8	724-729	Sinne	NN	_	
+7-9	730-733	die	ART	_	
+7-10	734-744	Initiative	NN	_	
+7-11	745-754	ergreifen	VVINF	_	
+7-12	755-756	?	$.	_	
+
+#Text=So ging mir dieser Tage ein gr\u00F6\u00DFeres Heft `` Die Stellung der Sprache im Aufbau der Gesamtkultur '' von Leo Weisgerber Heidelberg 1933 Verlag der Winterschen Universit\u00E4tsbuchhandlung zu , das sich vielleicht zur Besprechung eignen wu\u0308rde , ohne gerade in die Dom\u00E4ne eines Ihrer st\u00E4ndigen Referenten zu fallen .
+8-1	758-760	So	ADV	_	
+8-2	761-765	ging	VVFIN	_	
+8-3	766-769	mir	PPER	_	
+8-4	770-776	dieser	PDAT	_	
+8-5	777-781	Tage	NN	_	
+8-6	782-785	ein	ART	_	
+8-7	786-794	größeres	ADJA	_	
+8-8	795-799	Heft	NN	_	
+8-9	800-802	``	$(	_	
+8-10	803-806	Die	ART	LIT[4]	
+8-11	807-815	Stellung	NN	LIT[4]	
+8-12	816-819	der	ART	LIT[4]	
+8-13	820-827	Sprache	NN	LIT[4]	
+8-14	828-830	im	APPRART	LIT[4]	
+8-15	831-837	Aufbau	NN	LIT[4]	
+8-16	838-841	der	ART	LIT[4]	
+8-17	842-854	Gesamtkultur	NN	LIT[4]	
+8-18	855-857	''	$(	_	
+8-19	858-861	von	APPR	_	
+8-20	862-865	Leo	NE	PER[5]	
+8-21	866-876	Weisgerber	NE	PER[5]	
+8-22	877-887	Heidelberg	NE	LOC	
+8-23	888-892	1933	CARD	_	
+8-24	893-899	Verlag	NN	PUB[7]	
+8-25	900-903	der	ART	PUB[7]	
+8-26	904-915	Winterschen	NN	PUB[7]	
+8-27	916-940	Universitätsbuchhandlung	NN	PUB[7]	
+8-28	941-943	zu	PTKVZ	_	
+8-29	944-945	,	$,	_	
+8-30	946-949	das	PRELS	_	
+8-31	950-954	sich	PRF	_	
+8-32	955-965	vielleicht	ADV	_	
+8-33	966-969	zur	APPRART	_	
+8-34	970-981	Besprechung	NN	_	
+8-35	982-988	eignen	VVPP	_	
+8-36	989-995	würde	VAFIN	_	
+8-37	996-997	,	$,	_	
+8-38	998-1002	ohne	KOUI	_	
+8-39	1003-1009	gerade	ADV	_	
+8-40	1010-1012	in	APPR	_	
+8-41	1013-1016	die	ART	_	
+8-42	1017-1023	Domäne	NN	_	
+8-43	1024-1029	eines	ART	_	
+8-44	1030-1035	Ihrer	PPOSAT	_	
+8-45	1036-1045	ständigen	ADJA	_	
+8-46	1046-1056	Referenten	NN	_	
+8-47	1057-1059	zu	PTKZU	_	
+8-48	1060-1066	fallen	VVINF	_	
+8-49	1067-1068	.	$.	_	
+
+#Text=Meine Beitr\u00E4ge wu\u0308rde ich mit dem Namen zeichnen , den Sie am Kopf des inliegenden Manuscripts finden und der schon hin und wieder mit Ehren bestanden hat .
+9-1	1070-1075	Meine	PPOSAT	_	
+9-2	1076-1084	Beiträge	NN	_	
+9-3	1085-1091	würde	VAFIN	_	
+9-4	1092-1095	ich	PPER	_	
+9-5	1096-1099	mit	APPR	_	
+9-6	1100-1103	dem	ART	_	
+9-7	1104-1109	Namen	NN	_	
+9-8	1110-1118	zeichnen	VVINF	_	
+9-9	1119-1120	,	$,	_	
+9-10	1121-1124	den	PRELS	_	
+9-11	1125-1128	Sie	PPER	_	
+9-12	1129-1131	am	APPRART	_	
+9-13	1132-1136	Kopf	NN	_	
+9-14	1137-1140	des	ART	_	
+9-15	1141-1152	inliegenden	ADJA	_	
+9-16	1153-1164	Manuscripts	NN	_	
+9-17	1165-1171	finden	VVFIN	_	
+9-18	1172-1175	und	KON	_	
+9-19	1176-1179	der	ART	_	
+9-20	1180-1185	schon	ADV	_	
+9-21	1186-1189	hin	ADV	_	
+9-22	1190-1193	und	KON	_	
+9-23	1194-1200	wieder	ADV	_	
+9-24	1201-1204	mit	APPR	_	
+9-25	1205-1210	Ehren	NN	_	
+9-26	1211-1220	bestanden	VVPP	_	
+9-27	1221-1224	hat	VAFIN	_	
+9-28	1225-1226	.	$.	_	
+
+#Text=Durch meine Abreise sind seinerzeit die Belege der Nummer vom 25. Februar , in der Sie die `` Kurzen Schatten '' gebracht haben , nicht an mich gelangt .
+10-1	1228-1233	Durch	APPR	_	
+10-2	1234-1239	meine	PPOSAT	_	
+10-3	1240-1247	Abreise	NN	_	
+10-4	1248-1252	sind	VAFIN	_	
+10-5	1253-1263	seinerzeit	ADV	_	
+10-6	1264-1267	die	ART	_	
+10-7	1268-1274	Belege	NN	_	
+10-8	1275-1278	der	ART	_	
+10-9	1279-1285	Nummer	NN	_	
+10-10	1286-1289	vom	APPRART	_	
+10-11	1290-1293	25.	ADJA	_	
+10-12	1294-1301	Februar	NN	_	
+10-13	1302-1303	,	$,	_	
+10-14	1304-1306	in	APPR	_	
+10-15	1307-1310	der	PRELS	_	
+10-16	1311-1314	Sie	PPER	_	
+10-17	1315-1318	die	ART	_	
+10-18	1319-1321	``	$(	_	
+10-19	1322-1328	Kurzen	ADJA	LIT[8]	
+10-20	1329-1337	Schatten	NN	LIT[8]	
+10-21	1338-1340	''	$(	_	
+10-22	1341-1349	gebracht	VVPP	_	
+10-23	1350-1355	haben	VAFIN	_	
+10-24	1356-1357	,	$,	_	
+10-25	1358-1363	nicht	PTKNEG	_	
+10-26	1364-1366	an	APPR	_	
+10-27	1367-1371	mich	PPER	_	
+10-28	1372-1379	gelangt	VVPP	_	
+10-29	1380-1381	.	$.	_	
+
+#Text=Denn abgesandt haben Sie sie gewi\u00DF .
+11-1	1383-1387	Denn	KON	_	
+11-2	1388-1397	abgesandt	VVPP	_	
+11-3	1398-1403	haben	VAFIN	_	
+11-4	1404-1407	Sie	PPER	_	
+11-5	1408-1411	sie	PPER	_	
+11-6	1412-1417	gewiß	ADV	_	
+11-7	1418-1419	.	$.	_	
+
+#Text=Sie wu\u0308rden mich aufs Freundlichste verpflichten , wenn Sie mir von der Nummer ein , zwei Exemplare fu\u0308r mein Archiv hierhersenden wollten .
+12-1	1421-1424	Sie	PPER	_	
+12-2	1425-1432	würden	VAFIN	_	
+12-3	1433-1437	mich	PRF	_	
+12-4	1438-1442	aufs	APPRART	_	
+12-5	1443-1456	Freundlichste	NN	_	
+12-6	1457-1469	verpflichten	VVINF	_	
+12-7	1470-1471	,	$,	_	
+12-8	1472-1476	wenn	KOUS	_	
+12-9	1477-1480	Sie	PPER	_	
+12-10	1481-1484	mir	PPER	_	
+12-11	1485-1488	von	APPR	_	
+12-12	1489-1492	der	ART	_	
+12-13	1493-1499	Nummer	NN	_	
+12-14	1500-1503	ein	CARD	_	
+12-15	1504-1505	,	$,	_	
+12-16	1506-1510	zwei	CARD	_	
+12-17	1511-1520	Exemplare	NN	_	
+12-18	1521-1525	für	APPR	_	
+12-19	1526-1530	mein	PPOSAT	_	
+12-20	1531-1537	Archiv	NN	_	
+12-21	1538-1551	hierhersenden	VVINF	_	
+12-22	1552-1559	wollten	VMFIN	_	
+12-23	1560-1561	.	$.	_	
+
+#Text=In der Hoffnung , bald Gutes von Ihnen zu h\u00F6ren und mit recht herzlichem Gru\u00DF Ihr Walter Benjamin
+13-1	1563-1565	In	APPR	_	
+13-2	1566-1569	der	ART	_	
+13-3	1570-1578	Hoffnung	NN	_	
+13-4	1579-1580	,	$,	_	
+13-5	1581-1585	bald	ADV	_	
+13-6	1586-1591	Gutes	NN	_	
+13-7	1592-1595	von	APPR	_	
+13-8	1596-1601	Ihnen	PPER	_	
+13-9	1602-1604	zu	PTKZU	_	
+13-10	1605-1610	hören	VVINF	_	
+13-11	1611-1614	und	KON	_	
+13-12	1615-1618	mit	APPR	_	
+13-13	1619-1624	recht	ADV	_	
+13-14	1625-1635	herzlichem	ADJA	_	
+13-15	1636-1640	Gruß	NN	_	
+13-16	1641-1644	Ihr	PPOSAT	_	
+13-17	1645-1651	Walter	NE	PER[9]	
+13-18	1652-1660	Benjamin	NE	PER[9]	

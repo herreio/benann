@@ -1,0 +1,439 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS|PosValue
+#T_SP=de.tudarmstadt.ukp.dkpro.core.api.ner.type.NamedEntity|value
+
+
+#Text=Liebe Felizitas , diese Gru\u0308\u00DFe werden Dich - wenn schon nicht zu Neujahr so doch sicher - im Augenblicke Deiner Ru\u0308ckkehr nach Berlin erreichen .
+1-1	0-5	Liebe	ADJA	_	
+1-2	6-15	Felizitas	NE	PER	
+1-3	16-17	,	$,	_	
+1-4	18-23	diese	PDAT	_	
+1-5	24-30	Grüße	NN	_	
+1-6	31-37	werden	VAFIN	_	
+1-7	38-42	Dich	PPER	_	
+1-8	43-44	-	$(	_	
+1-9	45-49	wenn	KOUS	_	
+1-10	50-55	schon	ADV	_	
+1-11	56-61	nicht	PTKNEG	_	
+1-12	62-64	zu	PTKZU	_	
+1-13	65-72	Neujahr	VVINF	_	
+1-14	73-75	so	ADV	_	
+1-15	76-80	doch	ADV	_	
+1-16	81-87	sicher	ADJD	_	
+1-17	88-89	-	$(	_	
+1-18	90-92	im	APPRART	_	
+1-19	93-104	Augenblicke	NN	_	
+1-20	105-111	Deiner	PPOSAT	_	
+1-21	112-121	Rückkehr	NN	_	
+1-22	122-126	nach	APPR	_	
+1-23	127-133	Berlin	NE	LOC	
+1-24	134-143	erreichen	VVINF	_	
+1-25	144-145	.	$.	_	
+
+#Text=Denn ich denke , Du bist zu Neujahr noch in Frankfurt .
+2-1	147-151	Denn	KON	_	
+2-2	152-155	ich	PPER	_	
+2-3	156-161	denke	VVFIN	_	
+2-4	162-163	,	$,	_	
+2-5	164-166	Du	PPER	_	
+2-6	167-171	bist	VAFIN	_	
+2-7	172-174	zu	PTKZU	_	
+2-8	175-182	Neujahr	NN	_	
+2-9	183-187	noch	ADV	_	
+2-10	188-190	in	APPR	_	
+2-11	191-200	Frankfurt	NE	LOC	
+2-12	201-202	.	$.	_	
+
+#Text=Ich habe wieder Dank fu\u0308r Vieles zu sagen - auch fu\u0308r die frankfurter Ermahnung , von anderen , Wichtigeren nicht zu sprechen .
+3-1	204-207	Ich	PPER	_	
+3-2	208-212	habe	VAFIN	_	
+3-3	213-219	wieder	ADV	_	
+3-4	220-224	Dank	APPR	_	
+3-5	225-229	für	ADJA	_	
+3-6	230-236	Vieles	PIS	_	
+3-7	237-239	zu	PTKZU	_	
+3-8	240-245	sagen	VVINF	_	
+3-9	246-247	-	$(	_	
+3-10	248-252	auch	ADV	_	
+3-11	253-257	für	ADJD	_	
+3-12	258-261	die	ART	_	
+3-13	262-273	frankfurter	ADJA	LOCderiv	
+3-14	274-283	Ermahnung	NN	_	
+3-15	284-285	,	$,	_	
+3-16	286-289	von	APPR	_	
+3-17	290-297	anderen	ADJA	_	
+3-18	298-299	,	$,	_	
+3-19	300-311	Wichtigeren	NN	_	
+3-20	312-317	nicht	PTKNEG	_	
+3-21	318-320	zu	PTKZU	_	
+3-22	321-329	sprechen	VVINF	_	
+3-23	330-331	.	$.	_	
+
+#Text=Diese betreffend hatte ich gewisse Schritte vorher schon unternommen .
+4-1	333-338	Diese	PDS	_	
+4-2	339-349	betreffend	APPO	_	
+4-3	350-355	hatte	VAFIN	_	
+4-4	356-359	ich	PPER	_	
+4-5	360-367	gewisse	ADJA	_	
+4-6	368-376	Schritte	NN	_	
+4-7	377-383	vorher	ADV	_	
+4-8	384-389	schon	ADV	_	
+4-9	390-401	unternommen	VVPP	_	
+4-10	402-403	.	$.	_	
+
+#Text=Ich bin noch ohne Bescheid und habe allen Grund anzunehmen , da\u00DF sie vergeblich gewesen sind , wie das von Anfang an zu erwarten war .
+5-1	405-408	Ich	PPER	_	
+5-2	409-412	bin	VAFIN	_	
+5-3	413-417	noch	ADV	_	
+5-4	418-422	ohne	APPR	_	
+5-5	423-431	Bescheid	NN	_	
+5-6	432-435	und	KON	_	
+5-7	436-440	habe	VAFIN	_	
+5-8	441-446	allen	PIAT	_	
+5-9	447-452	Grund	NN	_	
+5-10	453-463	anzunehmen	VVIZU	_	
+5-11	464-465	,	$,	_	
+5-12	466-469	daß	KOUS	_	
+5-13	470-473	sie	PPER	_	
+5-14	474-484	vergeblich	ADJD	_	
+5-15	485-492	gewesen	VAPP	_	
+5-16	493-497	sind	VAFIN	_	
+5-17	498-499	,	$,	_	
+5-18	500-503	wie	PWAV	_	
+5-19	504-507	das	ART	_	
+5-20	508-511	von	APPR	_	
+5-21	512-518	Anfang	NN	_	
+5-22	519-521	an	APPR	_	
+5-23	522-524	zu	PTKZU	_	
+5-24	525-533	erwarten	VVINF	_	
+5-25	534-537	war	VAFIN	_	
+5-26	538-539	.	$.	_	
+
+#Text=Natu\u0308rlich macht es die damit verbundnen Folgen nicht leichter , sie vorhergesehen zu haben .
+6-1	541-551	Natürlich	ADJD	_	
+6-2	552-557	macht	VVFIN	_	
+6-3	558-560	es	PPER	_	
+6-4	561-564	die	ART	_	
+6-5	565-570	damit	PROAV	_	
+6-6	571-581	verbundnen	ADJA	_	
+6-7	582-588	Folgen	NN	_	
+6-8	589-594	nicht	PTKNEG	_	
+6-9	595-603	leichter	ADJD	_	
+6-10	604-605	,	$,	_	
+6-11	606-609	sie	PPER	_	
+6-12	610-623	vorhergesehen	VVPP	_	
+6-13	624-626	zu	PTKZU	_	
+6-14	627-632	haben	VAINF	_	
+6-15	633-634	.	$.	_	
+
+#Text=Und so l\u00E4\u00DFt es sich nicht leugnen , da\u00DF ich nicht nur am Ende des alten Jahres sondern auch meines Lateins bin .
+7-1	636-639	Und	KON	_	
+7-2	640-642	so	ADV	_	
+7-3	643-647	läßt	VVFIN	_	
+7-4	648-650	es	PPER	_	
+7-5	651-655	sich	PRF	_	
+7-6	656-661	nicht	PTKNEG	_	
+7-7	662-669	leugnen	VVINF	_	
+7-8	670-671	,	$,	_	
+7-9	672-675	daß	KOUS	_	
+7-10	676-679	ich	PPER	_	
+7-11	680-685	nicht	PTKNEG	_	
+7-12	686-689	nur	ADV	_	
+7-13	690-692	am	APPRART	_	
+7-14	693-697	Ende	NN	_	
+7-15	698-701	des	ART	_	
+7-16	702-707	alten	ADJA	_	
+7-17	708-714	Jahres	NN	_	
+7-18	715-722	sondern	KON	_	
+7-19	723-727	auch	ADV	_	
+7-20	728-734	meines	PPOSAT	_	
+7-21	735-742	Lateins	NN	_	
+7-22	743-746	bin	VAFIN	_	
+7-23	747-748	.	$.	_	
+
+#Text=Gewi\u00DF : ich habe - wie ich Dir wohl schrieb - vor kurzem meinen ersten Auftrag hier eingebracht - einen Aufsatz u\u0308ber den Seinepr\u00E4fekten Haussmann , der Paris unter Napoleon III umgebaut hat .
+8-1	750-755	Gewiß	ADV	_	
+8-2	756-757	:	$.	_	
+8-3	758-761	ich	PPER	_	
+8-4	762-766	habe	VAFIN	_	
+8-5	767-768	-	$(	_	
+8-6	769-772	wie	KOUS	_	
+8-7	773-776	ich	PPER	_	
+8-8	777-780	Dir	PPER	_	
+8-9	781-785	wohl	ADV	_	
+8-10	786-793	schrieb	VVFIN	_	
+8-11	794-795	-	$(	_	
+8-12	796-799	vor	APPR	_	
+8-13	800-806	kurzem	ADJA	_	
+8-14	807-813	meinen	VVFIN	_	
+8-15	814-820	ersten	ADJA	_	
+8-16	821-828	Auftrag	NN	_	
+8-17	829-833	hier	ADV	_	
+8-18	834-845	eingebracht	VVPP	_	
+8-19	846-847	-	$(	_	
+8-20	848-853	einen	ART	_	
+8-21	854-861	Aufsatz	NN	_	
+8-22	862-867	über	APPR	_	
+8-23	868-871	den	ART	_	
+8-24	872-886	Seinepräfekten	NN	_	
+8-25	887-896	Haussmann	NE	PER	
+8-26	897-898	,	$,	_	
+8-27	899-902	der	PRELS	_	
+8-28	903-908	Paris	NE	LOC	
+8-29	909-914	unter	APPR	_	
+8-30	915-923	Napoleon	NE	PER[7]	
+8-31	924-927	III	NE	PER[7]	
+8-32	928-936	umgebaut	VVPP	_	
+8-33	937-940	hat	VAFIN	_	
+8-34	941-942	.	$.	_	
+
+#Text=Auch sonst ist dies und jenes zu tun .
+9-1	944-948	Auch	ADV	_	
+9-2	949-954	sonst	ADV	_	
+9-3	955-958	ist	VAFIN	_	
+9-4	959-963	dies	PDS	_	
+9-5	964-967	und	KON	_	
+9-6	968-973	jenes	PDS	_	
+9-7	974-976	zu	PTKZU	_	
+9-8	977-980	tun	VVINF	_	
+9-9	981-982	.	$.	_	
+
+#Text=Gegen die graue Perspektive und die noch grauere Einsamkeit , die jetzt um mich ist , kommt das alles nicht auf .
+10-1	984-989	Gegen	APPR	_	
+10-2	990-993	die	ART	_	
+10-3	994-999	graue	ADJA	_	
+10-4	1000-1011	Perspektive	NN	_	
+10-5	1012-1015	und	KON	_	
+10-6	1016-1019	die	ART	_	
+10-7	1020-1024	noch	ADV	_	
+10-8	1025-1032	grauere	ADJA	_	
+10-9	1033-1043	Einsamkeit	NN	_	
+10-10	1044-1045	,	$,	_	
+10-11	1046-1049	die	PRELS	_	
+10-12	1050-1055	jetzt	ADV	_	
+10-13	1056-1058	um	APPR	_	
+10-14	1059-1063	mich	PPER	_	
+10-15	1064-1067	ist	VAFIN	_	
+10-16	1068-1069	,	$,	_	
+10-17	1070-1075	kommt	VVFIN	_	
+10-18	1076-1079	das	ART	_	
+10-19	1080-1085	alles	PIS	_	
+10-20	1086-1091	nicht	PTKNEG	_	
+10-21	1092-1095	auf	PTKVZ	_	
+10-22	1096-1097	.	$.	_	
+
+#Text=Der Entschlu\u00DF , zu dem ich vor allem die Kraft finden mu\u0308\u00DFte , w\u00E4re von hier fortzugehen .
+11-1	1099-1102	Der	ART	_	
+11-2	1103-1112	Entschluß	NN	_	
+11-3	1113-1114	,	$,	_	
+11-4	1115-1117	zu	PTKZU	_	
+11-5	1118-1121	dem	PRELS	_	
+11-6	1122-1125	ich	PPER	_	
+11-7	1126-1129	vor	APPR	_	
+11-8	1130-1135	allem	PIS	_	
+11-9	1136-1139	die	ART	_	
+11-10	1140-1145	Kraft	NN	_	
+11-11	1146-1152	finden	VVINF	_	
+11-12	1153-1159	müßte	VMFIN	_	
+11-13	1160-1161	,	$,	_	
+11-14	1162-1166	wäre	VAFIN	_	
+11-15	1167-1170	von	APPR	_	
+11-16	1171-1175	hier	ADV	_	
+11-17	1176-1187	fortzugehen	VVIZU	_	
+11-18	1188-1189	.	$.	_	
+
+#Text=Noch mu\u00DF ich Einiges hier abwarten , noch hoffe ich - an erster Stelle - auf Dein Kommen , noch graut mir vor dem d\u00E4nischen Winter , dem dortigen Angewiesensein auf einen Menschen , das sehr leicht eine andere Form der Einsamkeit werden kann , einer ganz unbekannten Sprache , die niederdru\u0308ckend ist , wenn man fu\u0308r alle allt\u00E4glichen Verrichtungen selbst aufzukommen hat .
+12-1	1191-1195	Noch	ADV	_	
+12-2	1196-1199	muß	VMFIN	_	
+12-3	1200-1203	ich	PPER	_	
+12-4	1204-1211	Einiges	PIS	_	
+12-5	1212-1216	hier	ADV	_	
+12-6	1217-1225	abwarten	VVINF	_	
+12-7	1226-1227	,	$,	_	
+12-8	1228-1232	noch	ADV	_	
+12-9	1233-1238	hoffe	VVFIN	_	
+12-10	1239-1242	ich	PPER	_	
+12-11	1243-1244	-	$(	_	
+12-12	1245-1247	an	APPR	_	
+12-13	1248-1254	erster	ADJA	_	
+12-14	1255-1261	Stelle	NN	_	
+12-15	1262-1263	-	$(	_	
+12-16	1264-1267	auf	APPR	_	
+12-17	1268-1272	Dein	PPOSAT	_	
+12-18	1273-1279	Kommen	NN	_	
+12-19	1280-1281	,	$,	_	
+12-20	1282-1286	noch	ADV	_	
+12-21	1287-1292	graut	VVFIN	_	
+12-22	1293-1296	mir	PPER	_	
+12-23	1297-1300	vor	APPR	_	
+12-24	1301-1304	dem	ART	_	
+12-25	1305-1314	dänischen	ADJA	LOCderiv	
+12-26	1315-1321	Winter	NN	_	
+12-27	1322-1323	,	$,	_	
+12-28	1324-1327	dem	ART	_	
+12-29	1328-1336	dortigen	ADJA	_	
+12-30	1337-1351	Angewiesensein	NN	_	
+12-31	1352-1355	auf	APPR	_	
+12-32	1356-1361	einen	ART	_	
+12-33	1362-1370	Menschen	NN	_	
+12-34	1371-1372	,	$,	_	
+12-35	1373-1376	das	PRELS	_	
+12-36	1377-1381	sehr	ADV	_	
+12-37	1382-1388	leicht	ADJD	_	
+12-38	1389-1393	eine	ART	_	
+12-39	1394-1400	andere	ADJA	_	
+12-40	1401-1405	Form	NN	_	
+12-41	1406-1409	der	ART	_	
+12-42	1410-1420	Einsamkeit	NN	_	
+12-43	1421-1427	werden	VAINF	_	
+12-44	1428-1432	kann	VMFIN	_	
+12-45	1433-1434	,	$,	_	
+12-46	1435-1440	einer	ART	_	
+12-47	1441-1445	ganz	ADV	_	
+12-48	1446-1457	unbekannten	ADJA	_	
+12-49	1458-1465	Sprache	NN	_	
+12-50	1466-1467	,	$,	_	
+12-51	1468-1471	die	PRELS	_	
+12-52	1472-1487	niederdrückend	ADJD	_	
+12-53	1488-1491	ist	VAFIN	_	
+12-54	1492-1493	,	$,	_	
+12-55	1494-1498	wenn	KOUS	_	
+12-56	1499-1502	man	PIS	_	
+12-57	1503-1507	für	APPR	_	
+12-58	1508-1512	alle	PIAT	_	
+12-59	1513-1525	alltäglichen	ADJA	_	
+12-60	1526-1539	Verrichtungen	NN	_	
+12-61	1540-1546	selbst	ADV	_	
+12-62	1547-1558	aufzukommen	VVIZU	_	
+12-63	1559-1562	hat	VAFIN	_	
+12-64	1563-1564	.	$.	_	
+
+#Text=Das neue Schulgesetz gibt mir Bedenken fu\u0308r Stefan ein .
+13-1	1566-1569	Das	ART	_	
+13-2	1570-1574	neue	ADJA	_	
+13-3	1575-1586	Schulgesetz	NN	_	
+13-4	1587-1591	gibt	VVFIN	_	
+13-5	1592-1595	mir	PPER	_	
+13-6	1596-1604	Bedenken	NN	_	
+13-7	1605-1609	für	APPR	_	
+13-8	1610-1616	Stefan	NE	PER	
+13-9	1617-1620	ein	PTKVZ	_	
+13-10	1621-1622	.	$.	_	
+
+#Text=Die Arbeit hat augenblicklich fast keine best\u00E4tigende Kraft fu\u0308r mich , denn die , zu der es mich am meisten zieht - Fortsetzung der `` Berliner Kindheit '' kann ich mir nicht leisten .
+14-1	1624-1627	Die	ART	_	
+14-2	1628-1634	Arbeit	NN	_	
+14-3	1635-1638	hat	VAFIN	_	
+14-4	1639-1653	augenblicklich	ADJD	_	
+14-5	1654-1658	fast	ADV	_	
+14-6	1659-1664	keine	PIAT	_	
+14-7	1665-1677	bestätigende	ADJA	_	
+14-8	1678-1683	Kraft	NN	_	
+14-9	1684-1688	für	VVINF	_	
+14-10	1689-1693	mich	PPER	_	
+14-11	1694-1695	,	$,	_	
+14-12	1696-1700	denn	KON	_	
+14-13	1701-1704	die	PDS	_	
+14-14	1705-1706	,	$,	_	
+14-15	1707-1709	zu	APPR	_	
+14-16	1710-1713	der	PRELS	_	
+14-17	1714-1716	es	PPER	_	
+14-18	1717-1721	mich	PRF	_	
+14-19	1722-1724	am	APPRART	_	
+14-20	1725-1732	meisten	PIS	_	
+14-21	1733-1738	zieht	VVFIN	_	
+14-22	1739-1740	-	$(	_	
+14-23	1741-1752	Fortsetzung	NN	_	
+14-24	1753-1756	der	ART	_	
+14-25	1757-1759	``	$(	_	
+14-26	1760-1768	Berliner	ADJA	LIT[10]	
+14-27	1769-1777	Kindheit	NN	LIT[10]	
+14-28	1778-1780	''	$(	_	
+14-29	1781-1785	kann	VMFIN	_	
+14-30	1786-1789	ich	PPER	_	
+14-31	1790-1793	mir	PPER	_	
+14-32	1794-1799	nicht	PTKNEG	_	
+14-33	1800-1807	leisten	VVINF	_	
+14-34	1808-1809	.	$.	_	
+
+#Text=\u00DCber den `` Tom '' das n\u00E4chste Mal .
+15-1	1811-1815	Über	APPR	_	
+15-2	1816-1819	den	ART	_	
+15-3	1820-1822	``	$(	_	
+15-4	1823-1826	Tom	NE	LIT	
+15-5	1827-1829	''	$(	_	
+15-6	1830-1833	das	ART	_	
+15-7	1834-1841	nächste	ADJA	_	
+15-8	1842-1845	Mal	NN	_	
+15-9	1846-1847	.	$.	_	
+
+#Text=`` Vierh\u00E4ndig '' habe ich mit Freude gelesen .
+16-1	1849-1851	``	$(	_	
+16-2	1852-1862	Vierhändig	NE	LIT	
+16-3	1863-1865	''	$(	_	
+16-4	1866-1870	habe	VAFIN	_	
+16-5	1871-1874	ich	PPER	_	
+16-6	1875-1878	mit	APPR	_	
+16-7	1879-1885	Freude	NN	_	
+16-8	1886-1893	gelesen	VVPP	_	
+16-9	1894-1895	.	$.	_	
+
+#Text=So sonderbar es klingt , so mu\u0308\u00DFte ja auch ich mich irgendwann an \u00E4hnliche Erinnerungen wagen .
+17-1	1897-1899	So	ADV	_	
+17-2	1900-1909	sonderbar	ADJD	_	
+17-3	1910-1912	es	PPER	_	
+17-4	1913-1919	klingt	VVFIN	_	
+17-5	1920-1921	,	$,	_	
+17-6	1922-1924	so	ADV	_	
+17-7	1925-1931	müßte	VMFIN	_	
+17-8	1932-1934	ja	ADV	_	
+17-9	1935-1939	auch	ADV	_	
+17-10	1940-1943	ich	PPER	_	
+17-11	1944-1948	mich	PRF	_	
+17-12	1949-1959	irgendwann	ADV	_	
+17-13	1960-1962	an	APPR	_	
+17-14	1963-1971	ähnliche	ADJA	_	
+17-15	1972-1984	Erinnerungen	NN	_	
+17-16	1985-1990	wagen	VVINF	_	
+17-17	1991-1992	.	$.	_	
+
+#Text=Ich habe auch Studien dazu gemacht , aber - noch ist es nicht soweit .
+18-1	1994-1997	Ich	PPER	_	
+18-2	1998-2002	habe	VAFIN	_	
+18-3	2003-2007	auch	ADV	_	
+18-4	2008-2015	Studien	NN	_	
+18-5	2016-2020	dazu	PROAV	_	
+18-6	2021-2028	gemacht	VVPP	_	
+18-7	2029-2030	,	$,	_	
+18-8	2031-2035	aber	KON	_	
+18-9	2036-2037	-	$(	_	
+18-10	2038-2042	noch	ADV	_	
+18-11	2043-2046	ist	VAFIN	_	
+18-12	2047-2049	es	PPER	_	
+18-13	2050-2055	nicht	PTKNEG	_	
+18-14	2056-2062	soweit	ADV	_	
+18-15	2063-2064	.	$.	_	
+
+#Text=... Schreibe mir m\u00F6glichst bald .
+19-1	2066-2069	...	$(	_	
+19-2	2070-2078	Schreibe	VVIMP	_	
+19-3	2079-2082	mir	PPER	_	
+19-4	2083-2092	möglichst	ADV	_	
+19-5	2093-2097	bald	ADV	_	
+19-6	2098-2099	.	$.	_	
+
+#Text=Und einen sehr herzlichen Gedanken ins neue Jahr hinu\u0308ber .
+20-1	2101-2104	Und	KON	_	
+20-2	2105-2110	einen	ART	_	
+20-3	2111-2115	sehr	ADV	_	
+20-4	2116-2126	herzlichen	ADJA	_	
+20-5	2127-2135	Gedanken	NN	_	
+20-6	2136-2139	ins	APPRART	_	
+20-7	2140-2144	neue	ADJA	_	
+20-8	2145-2149	Jahr	NN	_	
+20-9	2150-2158	hinüber	APZR	_	
+20-10	2159-2160	.	$.	_	
+
+#Text=Dein Detlef
+21-1	2162-2166	Dein	PPOSAT	_	
+21-2	2167-2173	Detlef	NE	PER	

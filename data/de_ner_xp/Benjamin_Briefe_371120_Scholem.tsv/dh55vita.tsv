@@ -1,0 +1,372 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS|PosValue
+#T_SP=de.tudarmstadt.ukp.dkpro.core.api.ner.type.NamedEntity|value
+
+
+#Text=Lieber Gerhard , Ich vermeide diesmal auch die kleinste Frist verstreichen zu lassen , ehe ich Dir auf den letzten Brief antworte .
+1-1	0-6	Lieber	ADJA	_	
+1-2	7-14	Gerhard	NE	PER	
+1-3	15-16	,	$,	_	
+1-4	17-20	Ich	PPER	_	
+1-5	21-29	vermeide	VVFIN	_	
+1-6	30-37	diesmal	ADV	_	
+1-7	38-42	auch	ADV	_	
+1-8	43-46	die	ART	_	
+1-9	47-55	kleinste	ADJA	_	
+1-10	56-61	Frist	NN	_	
+1-11	62-74	verstreichen	VVINF	_	
+1-12	75-77	zu	PTKZU	_	
+1-13	78-84	lassen	VVINF	_	
+1-14	85-86	,	$,	_	
+1-15	87-90	ehe	KOUS	_	
+1-16	91-94	ich	PPER	_	
+1-17	95-98	Dir	PPER	_	
+1-18	99-102	auf	APPR	_	
+1-19	103-106	den	ART	_	
+1-20	107-114	letzten	ADJA	_	
+1-21	115-120	Brief	NN	_	
+1-22	121-129	antworte	VVFIN	_	
+1-23	130-131	.	$.	_	
+
+#Text=Er enthielt die Ank\u00FCndigung Deines Kommens und die Kritik am `` Fuchs '' .
+2-1	133-135	Er	PPER	_	
+2-2	136-144	enthielt	VVFIN	_	
+2-3	145-148	die	ART	_	
+2-4	149-160	Ankündigung	NN	_	
+2-5	161-167	Deines	PPOSAT	_	
+2-6	168-175	Kommens	NN	_	
+2-7	176-179	und	KON	_	
+2-8	180-183	die	ART	_	
+2-9	184-190	Kritik	NN	_	
+2-10	191-193	am	APPRART	_	
+2-11	194-196	``	$(	_	
+2-12	197-202	Fuchs	NE	LIT	
+2-13	203-205	''	$(	_	
+2-14	206-207	.	$.	_	
+
+#Text=F\u00FCr mich verschr\u00E4nken sich beide Gegenst\u00E4nde - nicht anders als auch f\u00FCr Dich .
+3-1	209-212	Für	APPR	_	
+3-2	213-217	mich	PPER	_	
+3-3	218-230	verschränken	VVFIN	_	
+3-4	231-235	sich	PRF	_	
+3-5	236-241	beide	PIAT	_	
+3-6	242-253	Gegenstände	NN	_	
+3-7	254-255	-	$(	_	
+3-8	256-261	nicht	PTKNEG	_	
+3-9	262-268	anders	ADV	_	
+3-10	269-272	als	KOKOM	_	
+3-11	273-277	auch	ADV	_	
+3-12	278-281	für	APPR	_	
+3-13	282-286	Dich	PPER	_	
+3-14	287-288	.	$.	_	
+
+#Text=Es w\u00E4re in der Tat dringlich , es ist fast unaufschiebbar , da\u00DF wir bald miteinander reden .
+4-1	290-292	Es	PPER	_	
+4-2	293-297	wäre	VAFIN	_	
+4-3	298-300	in	APPR	_	
+4-4	301-304	der	ART	_	
+4-5	305-308	Tat	NN	_	
+4-6	309-318	dringlich	ADJD	_	
+4-7	319-320	,	$,	_	
+4-8	321-323	es	PPER	_	
+4-9	324-327	ist	VAFIN	_	
+4-10	328-332	fast	ADV	_	
+4-11	333-347	unaufschiebbar	ADJD	_	
+4-12	348-349	,	$,	_	
+4-13	350-353	daß	KOUS	_	
+4-14	354-357	wir	PPER	_	
+4-15	358-362	bald	ADV	_	
+4-16	363-374	miteinander	ADV	_	
+4-17	375-380	reden	VVFIN	_	
+4-18	381-382	.	$.	_	
+
+#Text=Nicht als ob die Bedenken , die Du dem `` Fuchs '' entgegenh\u00E4ltst , mich im mindesten \u00FCberraschen .
+5-1	384-389	Nicht	PTKNEG	_	
+5-2	390-393	als	APPR	_	
+5-3	394-396	ob	KOUS	_	
+5-4	397-400	die	ART	_	
+5-5	401-409	Bedenken	NN	_	
+5-6	410-411	,	$,	_	
+5-7	412-415	die	PRELS	_	
+5-8	416-418	Du	PPER	_	
+5-9	419-422	dem	ART	_	
+5-10	423-425	``	$(	_	
+5-11	426-431	Fuchs	NE	LIT	
+5-12	432-434	''	$(	_	
+5-13	435-449	entgegenhältst	VVFIN	_	
+5-14	450-451	,	$,	_	
+5-15	452-456	mich	PPER	_	
+5-16	457-459	im	PTKA	_	
+5-17	460-469	mindesten	ADJA	_	
+5-18	470-481	überraschen	VVFIN	_	
+5-19	482-483	.	$.	_	
+
+#Text=Aber der Gegenstand dieser Arbeit gibt - gerade durch seine Fadenscheinigkeit - eine Gelegenheit \u00FCber die durchscheinende Methode zu verhandeln , die sich so g\u00FCnstig vielleicht nicht bald pr\u00E4sentieren wird .
+6-1	485-489	Aber	KON	_	
+6-2	490-493	der	ART	_	
+6-3	494-504	Gegenstand	NN	_	
+6-4	505-511	dieser	PDAT	_	
+6-5	512-518	Arbeit	NN	_	
+6-6	519-523	gibt	VVFIN	_	
+6-7	524-525	-	$(	_	
+6-8	526-532	gerade	ADV	_	
+6-9	533-538	durch	APPR	_	
+6-10	539-544	seine	PPOSAT	_	
+6-11	545-562	Fadenscheinigkeit	NN	_	
+6-12	563-564	-	$(	_	
+6-13	565-569	eine	ART	_	
+6-14	570-581	Gelegenheit	NN	_	
+6-15	582-586	über	APPR	_	
+6-16	587-590	die	ART	_	
+6-17	591-606	durchscheinende	ADJA	_	
+6-18	607-614	Methode	NN	_	
+6-19	615-617	zu	PTKZU	_	
+6-20	618-628	verhandeln	VVINF	_	
+6-21	629-630	,	$,	_	
+6-22	631-634	die	PRELS	_	
+6-23	635-639	sich	PRF	_	
+6-24	640-642	so	ADV	_	
+6-25	643-650	günstig	ADJD	_	
+6-26	651-661	vielleicht	ADV	_	
+6-27	662-667	nicht	PTKNEG	_	
+6-28	668-672	bald	ADV	_	
+6-29	673-685	präsentieren	VVINF	_	
+6-30	686-690	wird	VAFIN	_	
+6-31	691-692	.	$.	_	
+
+#Text=Sie ist geeignet , uns den Zugang zu den Bereichen zu erschlie\u00DFen , in denen unsere Debatte urspr\u00FCnglich zu Hause ist .
+7-1	694-697	Sie	PPER	_	
+7-2	698-701	ist	VAFIN	_	
+7-3	702-710	geeignet	ADJD	_	
+7-4	711-712	,	$,	_	
+7-5	713-716	uns	PPER	_	
+7-6	717-720	den	ART	_	
+7-7	721-727	Zugang	NN	_	
+7-8	728-730	zu	PTKZU	_	
+7-9	731-734	den	ART	_	
+7-10	735-744	Bereichen	NN	_	
+7-11	745-747	zu	PTKZU	_	
+7-12	748-759	erschließen	VVINF	_	
+7-13	760-761	,	$,	_	
+7-14	762-764	in	APPR	_	
+7-15	765-770	denen	PRELS	_	
+7-16	771-777	unsere	PPOSAT	_	
+7-17	778-785	Debatte	NN	_	
+7-18	786-798	ursprünglich	ADJD	_	
+7-19	799-801	zu	APPR	_	
+7-20	802-807	Hause	NN	_	
+7-21	808-811	ist	VAFIN	_	
+7-22	812-813	.	$.	_	
+
+#Text=Unter diesen Umst\u00E4nden stellen die Termine , die Du f\u00FCr Deinen europ\u00E4ischen Aufenthalt ins Auge fa\u00DFt , f\u00FCr mich - nach den mannichfachen gescheiterten Projekten meines Erscheinens in Pal\u00E4stina - eine ganz erhebliche Entt\u00E4uschung dar .
+8-1	815-820	Unter	APPR	_	
+8-2	821-827	diesen	PDAT	_	
+8-3	828-837	Umständen	NN	_	
+8-4	838-845	stellen	VVFIN	_	
+8-5	846-849	die	ART	_	
+8-6	850-857	Termine	NN	_	
+8-7	858-859	,	$,	_	
+8-8	860-863	die	PRELS	_	
+8-9	864-866	Du	PPER	_	
+8-10	867-870	für	APPR	_	
+8-11	871-877	Deinen	PPOSAT	_	
+8-12	878-890	europäischen	ADJA	LOCderiv	
+8-13	891-901	Aufenthalt	NN	_	
+8-14	902-905	ins	APPRART	_	
+8-15	906-910	Auge	NN	_	
+8-16	911-915	faßt	VVFIN	_	
+8-17	916-917	,	$,	_	
+8-18	918-921	für	APPR	_	
+8-19	922-926	mich	PPER	_	
+8-20	927-928	-	$(	_	
+8-21	929-933	nach	APPR	_	
+8-22	934-937	den	ART	_	
+8-23	938-951	mannichfachen	ADJA	_	
+8-24	952-965	gescheiterten	ADJA	_	
+8-25	966-975	Projekten	NN	_	
+8-26	976-982	meines	PPOSAT	_	
+8-27	983-994	Erscheinens	NN	_	
+8-28	995-997	in	APPR	_	
+8-29	998-1007	Palästina	NE	LOC	
+8-30	1008-1009	-	$(	_	
+8-31	1010-1014	eine	ART	_	
+8-32	1015-1019	ganz	ADV	_	
+8-33	1020-1030	erhebliche	ADJA	_	
+8-34	1031-1043	Enttäuschung	NN	_	
+8-35	1044-1047	dar	PTKVZ	_	
+8-36	1048-1049	.	$.	_	
+
+#Text=... Ich habe mein altes Logis nicht wiederbekommen und mich seit zwei Monaten mit einem j\u00E4mmerlichen beholfen , das mir unentgeltlich zur Verf\u00FCgung gestellt wurde .
+9-1	1051-1054	...	$(	_	
+9-2	1055-1058	Ich	PPER	_	
+9-3	1059-1063	habe	VAFIN	_	
+9-4	1064-1068	mein	PPOSAT	_	
+9-5	1069-1074	altes	ADJA	_	
+9-6	1075-1080	Logis	NN	_	
+9-7	1081-1086	nicht	PTKNEG	_	
+9-8	1087-1101	wiederbekommen	VVPP	_	
+9-9	1102-1105	und	KON	_	
+9-10	1106-1110	mich	PPER	_	
+9-11	1111-1115	seit	APPR	_	
+9-12	1116-1120	zwei	CARD	_	
+9-13	1121-1128	Monaten	NN	_	
+9-14	1129-1132	mit	APPR	_	
+9-15	1133-1138	einem	ART	_	
+9-16	1139-1151	jämmerlichen	ADJA	_	
+9-17	1152-1160	beholfen	VVPP	_	
+9-18	1161-1162	,	$,	_	
+9-19	1163-1166	das	PRELS	_	
+9-20	1167-1170	mir	PPER	_	
+9-21	1171-1184	unentgeltlich	ADJD	_	
+9-22	1185-1188	zur	APPRART	_	
+9-23	1189-1198	Verfügung	NN	_	
+9-24	1199-1207	gestellt	VVPP	_	
+9-25	1208-1213	wurde	VAFIN	_	
+9-26	1214-1215	.	$.	_	
+
+#Text=Es liegt zu ebner Erde an einer der Haupt-Ausfallsstra\u00DFen au\u00DFerhalb von Paris und ist von fr\u00FCh bis sp\u00E4t vom L\u00E4rm zahlloser Lastwagen umbraust .
+10-1	1217-1219	Es	PPER	_	
+10-2	1220-1225	liegt	VVFIN	_	
+10-3	1226-1228	zu	APPR	_	
+10-4	1229-1234	ebner	ADJA	_	
+10-5	1235-1239	Erde	NN	_	
+10-6	1240-1242	an	APPR	_	
+10-7	1243-1248	einer	ART	_	
+10-8	1249-1252	der	ART	_	
+10-9	1253-1274	Haupt-Ausfallsstraßen	NN	_	
+10-10	1275-1284	außerhalb	APPR	_	
+10-11	1285-1288	von	APPR	_	
+10-12	1289-1294	Paris	NE	LOC	
+10-13	1295-1298	und	KON	_	
+10-14	1299-1302	ist	VAFIN	_	
+10-15	1303-1306	von	APPR	_	
+10-16	1307-1311	früh	ADJD	_	
+10-17	1312-1315	bis	APPR	_	
+10-18	1316-1320	spät	ADJD	_	
+10-19	1321-1324	vom	APPRART	_	
+10-20	1325-1329	Lärm	NN	_	
+10-21	1330-1339	zahlloser	ADJA	_	
+10-22	1340-1349	Lastwagen	NN	_	
+10-23	1350-1358	umbraust	VVPP	_	
+10-24	1359-1360	.	$.	_	
+
+#Text=Meine Arbeitsf\u00E4higkeit hat unter diesen Umst\u00E4nden sehr gelitten .
+11-1	1362-1367	Meine	PPOSAT	_	
+11-2	1368-1384	Arbeitsfähigkeit	NN	_	
+11-3	1385-1388	hat	VAFIN	_	
+11-4	1389-1394	unter	APPR	_	
+11-5	1395-1401	diesen	PDAT	_	
+11-6	1402-1411	Umständen	NN	_	
+11-7	1412-1416	sehr	ADV	_	
+11-8	1417-1425	gelitten	VVPP	_	
+11-9	1426-1427	.	$.	_	
+
+#Text=Ich bin bei dem `` Charles Baudelaire '' , den ich vorbereite , \u00FCber die Durchsicht der Literatur noch nicht hinausgekommen .
+12-1	1429-1432	Ich	PPER	_	
+12-2	1433-1436	bin	VAFIN	_	
+12-3	1437-1440	bei	APPR	_	
+12-4	1441-1444	dem	ART	_	
+12-5	1445-1447	``	$(	_	
+12-6	1448-1455	Charles	NE	LIT[7]	
+12-7	1456-1466	Baudelaire	NE	LIT[7]	
+12-8	1467-1469	''	$(	_	
+12-9	1470-1471	,	$,	_	
+12-10	1472-1475	den	PRELS	_	
+12-11	1476-1479	ich	PPER	_	
+12-12	1480-1490	vorbereite	VVFIN	_	
+12-13	1491-1492	,	$,	_	
+12-14	1493-1497	über	APPR	_	
+12-15	1498-1501	die	ART	_	
+12-16	1502-1512	Durchsicht	NN	_	
+12-17	1513-1516	der	ART	_	
+12-18	1517-1526	Literatur	NN	_	
+12-19	1527-1531	noch	ADV	_	
+12-20	1532-1537	nicht	PTKNEG	_	
+12-21	1538-1552	hinausgekommen	VVPP	_	
+12-22	1553-1554	.	$.	_	
+
+#Text=Vom 15. Januar ab l\u00E4uft meine Miete f\u00FCr eine eigene Wohnung .
+13-1	1556-1559	Vom	APPRART	_	
+13-2	1560-1563	15.	ADJA	_	
+13-3	1564-1570	Januar	NN	_	
+13-4	1571-1573	ab	ADV	_	
+13-5	1574-1579	läuft	VVFIN	_	
+13-6	1580-1585	meine	PPOSAT	_	
+13-7	1586-1591	Miete	NN	_	
+13-8	1592-1595	für	APPR	_	
+13-9	1596-1600	eine	ART	_	
+13-10	1601-1607	eigene	ADJA	_	
+13-11	1608-1615	Wohnung	NN	_	
+13-12	1616-1617	.	$.	_	
+
+#Text=Sie hat nur ein Zimmer .
+14-1	1619-1622	Sie	PPER	_	
+14-2	1623-1626	hat	VAFIN	_	
+14-3	1627-1630	nur	ADV	_	
+14-4	1631-1634	ein	ART	_	
+14-5	1635-1641	Zimmer	NN	_	
+14-6	1642-1643	.	$.	_	
+
+#Text=Dennoch stellt ihre Einrichtung ein derzeit ungel\u00F6stes Problem f\u00FCr mich dar .
+15-1	1645-1652	Dennoch	ADV	_	
+15-2	1653-1659	stellt	VVFIN	_	
+15-3	1660-1664	ihre	PPOSAT	_	
+15-4	1665-1676	Einrichtung	NN	_	
+15-5	1677-1680	ein	ART	_	
+15-6	1681-1688	derzeit	ADV	_	
+15-7	1689-1699	ungelöstes	ADJA	_	
+15-8	1700-1707	Problem	NN	_	
+15-9	1708-1711	für	APPR	_	
+15-10	1712-1716	mich	PPER	_	
+15-11	1717-1720	dar	PTKVZ	_	
+15-12	1721-1722	.	$.	_	
+
+#Text=In der Zwischenzeit bitte ich Dich , mir an die Adresse meiner Schwester eine hoffentlich erw\u00FCnschtere Nachricht baldigst zu geben .
+16-1	1724-1726	In	APPR	_	
+16-2	1727-1730	der	ART	_	
+16-3	1731-1743	Zwischenzeit	NN	_	
+16-4	1744-1749	bitte	VVFIN	_	
+16-5	1750-1753	ich	PPER	_	
+16-6	1754-1758	Dich	PPER	_	
+16-7	1759-1760	,	$,	_	
+16-8	1761-1764	mir	PPER	_	
+16-9	1765-1767	an	APPR	_	
+16-10	1768-1771	die	ART	_	
+16-11	1772-1779	Adresse	NN	_	
+16-12	1780-1786	meiner	PPOSAT	_	
+16-13	1787-1796	Schwester	NN	_	
+16-14	1797-1801	eine	ART	_	
+16-15	1802-1813	hoffentlich	ADJD	_	
+16-16	1814-1826	erwünschtere	ADJA	_	
+16-17	1827-1836	Nachricht	NN	_	
+16-18	1837-1845	baldigst	ADV	_	
+16-19	1846-1848	zu	PTKZU	_	
+16-20	1849-1854	geben	VVINF	_	
+16-21	1855-1856	.	$.	_	
+
+#Text=Wenn Du t\u00E4glich 65 bis 70 Francs zur Verf\u00FCgung hast , so kannst Du in Paris recht bequem auskommen .
+17-1	1858-1862	Wenn	KOUS	_	
+17-2	1863-1865	Du	PPER	_	
+17-3	1866-1873	täglich	ADJD	_	
+17-4	1874-1876	65	CARD	_	
+17-5	1877-1880	bis	APPR	_	
+17-6	1881-1883	70	CARD	_	
+17-7	1884-1890	Francs	NN	_	
+17-8	1891-1894	zur	APPRART	_	
+17-9	1895-1904	Verfügung	NN	_	
+17-10	1905-1909	hast	VAFIN	_	
+17-11	1910-1911	,	$,	_	
+17-12	1912-1914	so	ADV	_	
+17-13	1915-1921	kannst	VMFIN	_	
+17-14	1922-1924	Du	PPER	_	
+17-15	1925-1927	in	APPR	_	
+17-16	1928-1933	Paris	NE	LOC	
+17-17	1934-1939	recht	ADV	_	
+17-18	1940-1946	bequem	ADJD	_	
+17-19	1947-1956	auskommen	VVINF	_	
+17-20	1957-1958	.	$.	_	
+
+#Text=Herzlichst Dein Walter
+18-1	1960-1970	Herzlichst	ADJA	_	
+18-2	1971-1975	Dein	PPOSAT	_	
+18-3	1976-1982	Walter	NE	PER	

@@ -1,0 +1,354 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS|PosValue
+#T_SP=de.tudarmstadt.ukp.dkpro.core.api.ner.type.NamedEntity|value
+
+
+#Text=Lieber Gerhard , wenn diese Glu\u0308ckwu\u0308nsche viel zu sp\u00E4t zu Rosch ha Schanah kommen , so doch immer noch rechtzeitig zu der von Dir erstrebten und erreichten Anordnung Deiner akademischen Obliegenheiten , der Professur nicht zu vergessen .
+1-1	0-6	Lieber	ADJA	_	
+1-2	7-14	Gerhard	NE	PER	
+1-3	15-16	,	$,	_	
+1-4	17-21	wenn	KOUS	_	
+1-5	22-27	diese	PDAT	_	
+1-6	28-42	Glückwünsche	NN	_	
+1-7	43-47	viel	ADV	_	
+1-8	48-50	zu	PTKZU	_	
+1-9	51-55	spät	ADJD	_	
+1-10	56-58	zu	PTKZU	_	
+1-11	59-64	Rosch	FM	_	
+1-12	65-67	ha	FM	_	
+1-13	68-75	Schanah	FM	_	
+1-14	76-82	kommen	VVFIN	_	
+1-15	83-84	,	$,	_	
+1-16	85-87	so	ADV	_	
+1-17	88-92	doch	ADV	_	
+1-18	93-98	immer	ADV	_	
+1-19	99-103	noch	ADV	_	
+1-20	104-115	rechtzeitig	ADJD	_	
+1-21	116-118	zu	APPR	_	
+1-22	119-122	der	ART	_	
+1-23	123-126	von	APPR	_	
+1-24	127-130	Dir	PPER	_	
+1-25	131-141	erstrebten	VVFIN	_	
+1-26	142-145	und	KON	_	
+1-27	146-156	erreichten	VVFIN	_	
+1-28	157-166	Anordnung	NN	_	
+1-29	167-173	Deiner	PPOSAT	_	
+1-30	174-186	akademischen	ADJA	_	
+1-31	187-201	Obliegenheiten	NN	_	
+1-32	202-203	,	$,	_	
+1-33	204-207	der	ART	_	
+1-34	208-217	Professur	NN	_	
+1-35	218-223	nicht	PTKNEG	_	
+1-36	224-226	zu	PTKZU	_	
+1-37	227-236	vergessen	VVINF	_	
+1-38	237-238	.	$.	_	
+
+#Text=Ehe ich dies oder jenes aus unserm letzten Schriftwechsel beru\u0308hre , ein kurzes Situationsbild .
+2-1	240-243	Ehe	KOUS	_	
+2-2	244-247	ich	PPER	_	
+2-3	248-252	dies	PDS	_	
+2-4	253-257	oder	KON	_	
+2-5	258-263	jenes	PDS	_	
+2-6	264-267	aus	APPR	_	
+2-7	268-274	unserm	PPOSAT	_	
+2-8	275-282	letzten	ADJA	_	
+2-9	283-297	Schriftwechsel	NN	_	
+2-10	298-306	berühre	VVFIN	_	
+2-11	307-308	,	$,	_	
+2-12	309-312	ein	ART	_	
+2-13	313-319	kurzes	ADJA	_	
+2-14	320-334	Situationsbild	NN	_	
+2-15	335-336	.	$.	_	
+
+#Text=Ich bin schwer krank in Paris angekommen .
+3-1	338-341	Ich	PPER	_	
+3-2	342-345	bin	VAFIN	_	
+3-3	346-352	schwer	ADJD	_	
+3-4	353-358	krank	ADJD	_	
+3-5	359-361	in	APPR	_	
+3-6	362-367	Paris	NE	LOC	
+3-7	368-378	angekommen	VVPP	_	
+3-8	379-380	.	$.	_	
+
+#Text=Das will sagen , da\u00DF ich auf Ibiza u\u0308berhaupt nicht mehr gesund gewesen bin , und der Tag meiner endlichen Abreise fiel mit dem ersten einer Folge schwerster Fieberanf\u00E4lle zusammen .
+4-1	382-385	Das	ART	_	
+4-2	386-390	will	VMFIN	_	
+4-3	391-396	sagen	VVINF	_	
+4-4	397-398	,	$,	_	
+4-5	399-402	daß	KOUS	_	
+4-6	403-406	ich	PPER	_	
+4-7	407-410	auf	APPR	_	
+4-8	411-416	Ibiza	NE	LOC	
+4-9	417-427	überhaupt	ADV	_	
+4-10	428-433	nicht	PTKNEG	_	
+4-11	434-438	mehr	ADV	_	
+4-12	439-445	gesund	ADJD	_	
+4-13	446-453	gewesen	VAPP	_	
+4-14	454-457	bin	VAFIN	_	
+4-15	458-459	,	$,	_	
+4-16	460-463	und	KON	_	
+4-17	464-467	der	ART	_	
+4-18	468-471	Tag	NN	_	
+4-19	472-478	meiner	PPOSAT	_	
+4-20	479-488	endlichen	ADJA	_	
+4-21	489-496	Abreise	NN	_	
+4-22	497-501	fiel	VVFIN	_	
+4-23	502-505	mit	APPR	_	
+4-24	506-509	dem	ART	_	
+4-25	510-516	ersten	ADJA	_	
+4-26	517-522	einer	ART	_	
+4-27	523-528	Folge	NN	_	
+4-28	529-539	schwerster	ADJA	_	
+4-29	540-553	Fieberanfälle	NN	_	
+4-30	554-562	zusammen	PTKVZ	_	
+4-31	563-564	.	$.	_	
+
+#Text=Die Reise habe ich unter unvorstellbaren Umst\u00E4nden gemacht .
+5-1	566-569	Die	ART	_	
+5-2	570-575	Reise	NN	_	
+5-3	576-580	habe	VAFIN	_	
+5-4	581-584	ich	PPER	_	
+5-5	585-590	unter	APPR	_	
+5-6	591-606	unvorstellbaren	ADJA	_	
+5-7	607-616	Umständen	NN	_	
+5-8	617-624	gemacht	VVPP	_	
+5-9	625-626	.	$.	_	
+
+#Text=Und hier wurde dann gleich nach meiner Ankunft Malaria festgestellt .
+6-1	628-631	Und	KON	_	
+6-2	632-636	hier	ADV	_	
+6-3	637-642	wurde	VAFIN	_	
+6-4	643-647	dann	ADV	_	
+6-5	648-654	gleich	ADV	_	
+6-6	655-659	nach	APPR	_	
+6-7	660-666	meiner	PPOSAT	_	
+6-8	667-674	Ankunft	NN	_	
+6-9	675-682	Malaria	NN	_	
+6-10	683-695	festgestellt	VVPP	_	
+6-11	696-697	.	$.	_	
+
+#Text=Eine energische Chininkur hat mir inzwischen einen freien Kopf , wenn auch durchaus noch nicht meine Kr\u00E4fte wiedergegeben .
+7-1	699-703	Eine	ART	_	
+7-2	704-714	energische	ADJA	_	
+7-3	715-724	Chininkur	NN	_	
+7-4	725-728	hat	VAFIN	_	
+7-5	729-732	mir	PPER	_	
+7-6	733-743	inzwischen	ADV	_	
+7-7	744-749	einen	ART	_	
+7-8	750-756	freien	ADJA	_	
+7-9	757-761	Kopf	NN	_	
+7-10	762-763	,	$,	_	
+7-11	764-768	wenn	KOUS	_	
+7-12	769-773	auch	ADV	_	
+7-13	774-782	durchaus	ADV	_	
+7-14	783-787	noch	ADV	_	
+7-15	788-793	nicht	PTKNEG	_	
+7-16	794-799	meine	PPOSAT	_	
+7-17	800-806	Kräfte	NN	_	
+7-18	807-820	wiedergegeben	VVPP	_	
+7-19	821-822	.	$.	_	
+
+#Text=Diese sind u\u0308berhaupt durch die vielfachen Unbilden - nicht zum wenigsten die trostlose Ern\u00E4hrung - meines ibizenkischen Aufenthalts sehr geschw\u00E4cht .
+8-1	824-829	Diese	PDS	_	
+8-2	830-834	sind	VAFIN	_	
+8-3	835-845	überhaupt	ADV	_	
+8-4	846-851	durch	APPR	_	
+8-5	852-855	die	ART	_	
+8-6	856-866	vielfachen	ADJA	_	
+8-7	867-875	Unbilden	NN	_	
+8-8	876-877	-	$(	_	
+8-9	878-883	nicht	PTKNEG	_	
+8-10	884-887	zum	APPRART	_	
+8-11	888-897	wenigsten	ADJA	_	
+8-12	898-901	die	ART	_	
+8-13	902-911	trostlose	ADJA	_	
+8-14	912-921	Ernährung	NN	_	
+8-15	922-923	-	$(	_	
+8-16	924-930	meines	PPOSAT	_	
+8-17	931-944	ibizenkischen	ADJA	LOCderiv	
+8-18	945-956	Aufenthalts	NN	_	
+8-19	957-961	sehr	ADV	_	
+8-20	962-972	geschwächt	VVPP	_	
+8-21	973-974	.	$.	_	
+
+#Text=... Mein Archiv ist , wenigstens was den handschriftlichen Teil betrifft , zum u\u0308berwiegenden Teil durch Freunde hierher gebracht worden .
+9-1	976-979	...	$(	_	
+9-2	980-984	Mein	PPOSAT	_	
+9-3	985-991	Archiv	NN	_	
+9-4	992-995	ist	VAFIN	_	
+9-5	996-997	,	$,	_	
+9-6	998-1008	wenigstens	ADV	_	
+9-7	1009-1012	was	PWS	_	
+9-8	1013-1016	den	ART	_	
+9-9	1017-1034	handschriftlichen	ADJA	_	
+9-10	1035-1039	Teil	NN	_	
+9-11	1040-1048	betrifft	VVFIN	_	
+9-12	1049-1050	,	$,	_	
+9-13	1051-1054	zum	APPRART	_	
+9-14	1055-1069	überwiegenden	ADJA	_	
+9-15	1070-1074	Teil	NN	_	
+9-16	1075-1080	durch	APPR	_	
+9-17	1081-1088	Freunde	NN	_	
+9-18	1089-1096	hierher	ADV	_	
+9-19	1097-1105	gebracht	VVPP	_	
+9-20	1106-1112	worden	VAPP	_	
+9-21	1113-1114	.	$.	_	
+
+#Text=Von den handschriftlichen Dingen fehlt im wesentlichen nur der Nachla\u00DF der Heinles .
+10-1	1116-1119	Von	APPR	_	
+10-2	1120-1123	den	ART	_	
+10-3	1124-1141	handschriftlichen	ADJA	_	
+10-4	1142-1148	Dingen	NN	_	
+10-5	1149-1154	fehlt	VVFIN	_	
+10-6	1155-1157	im	APPRART	_	
+10-7	1158-1170	wesentlichen	ADJA	_	
+10-8	1171-1174	nur	ADV	_	
+10-9	1175-1178	der	ART	_	
+10-10	1179-1186	Nachlaß	NN	_	
+10-11	1187-1190	der	ART	_	
+10-12	1191-1198	Heinles	NE	PER	
+10-13	1199-1200	.	$.	_	
+
+#Text=Was die Sicherung meiner Bibliothek angeht , so ist das vor allem eine Geldfrage .
+11-1	1202-1205	Was	PWS	_	
+11-2	1206-1209	die	ART	_	
+11-3	1210-1219	Sicherung	NN	_	
+11-4	1220-1226	meiner	PPOSAT	_	
+11-5	1227-1237	Bibliothek	NN	_	
+11-6	1238-1244	angeht	VVFIN	_	
+11-7	1245-1246	,	$,	_	
+11-8	1247-1249	so	ADV	_	
+11-9	1250-1253	ist	VAFIN	_	
+11-10	1254-1257	das	ART	_	
+11-11	1258-1261	vor	APPR	_	
+11-12	1262-1267	allem	PIS	_	
+11-13	1268-1272	eine	ART	_	
+11-14	1273-1282	Geldfrage	NN	_	
+11-15	1283-1284	.	$.	_	
+
+#Text=... Mit einigem Unbehagen erwarte ich noch immer die Best\u00E4tigung des Empfangs der Notizen u\u0308ber die Sprache , die ich Dir von Ibiza aus in Schreibmaschinen-Ausfertigung gesandt habe .
+12-1	1286-1289	...	$(	_	
+12-2	1290-1293	Mit	APPR	_	
+12-3	1294-1301	einigem	PIAT	_	
+12-4	1302-1311	Unbehagen	NN	_	
+12-5	1312-1319	erwarte	VVFIN	_	
+12-6	1320-1323	ich	PPER	_	
+12-7	1324-1328	noch	ADV	_	
+12-8	1329-1334	immer	ADV	_	
+12-9	1335-1338	die	ART	_	
+12-10	1339-1350	Bestätigung	NN	_	
+12-11	1351-1354	des	ART	_	
+12-12	1355-1363	Empfangs	NN	_	
+12-13	1364-1367	der	ART	_	
+12-14	1368-1375	Notizen	NN	LITref[6]	
+12-15	1376-1381	über	KON	LITref[6]	
+12-16	1382-1385	die	ART	LITref[6]	
+12-17	1386-1393	Sprache	NN	LITref[6]	
+12-18	1394-1395	,	$,	_	
+12-19	1396-1399	die	PRELS	_	
+12-20	1400-1403	ich	PPER	_	
+12-21	1404-1407	Dir	PPER	_	
+12-22	1408-1411	von	APPR	_	
+12-23	1412-1417	Ibiza	NE	LOC	
+12-24	1418-1421	aus	APPR	_	
+12-25	1422-1424	in	APPR	_	
+12-26	1425-1454	Schreibmaschinen-Ausfertigung	NN	_	
+12-27	1455-1462	gesandt	VVPP	_	
+12-28	1463-1467	habe	VAFIN	_	
+12-29	1468-1469	.	$.	_	
+
+#Text=Du mu\u00DFt sie ja wohl kurz nach dem 19ten September , dem Datum Deines letzten Briefes , erhalten haben .
+13-1	1471-1473	Du	PPER	_	
+13-2	1474-1478	mußt	VVFIN	_	
+13-3	1479-1482	sie	PPER	_	
+13-4	1483-1485	ja	ADV	_	
+13-5	1486-1490	wohl	ADV	_	
+13-6	1491-1495	kurz	ADJD	_	
+13-7	1496-1500	nach	APPR	_	
+13-8	1501-1504	dem	ART	_	
+13-9	1505-1510	19ten	ADJA	_	
+13-10	1511-1520	September	NN	_	
+13-11	1521-1522	,	$,	_	
+13-12	1523-1526	dem	ART	_	
+13-13	1527-1532	Datum	NN	_	
+13-14	1533-1539	Deines	PPOSAT	_	
+13-15	1540-1547	letzten	ADJA	_	
+13-16	1548-1555	Briefes	NN	_	
+13-17	1556-1557	,	$,	_	
+13-18	1558-1566	erhalten	VVPP	_	
+13-19	1567-1572	haben	VAFIN	_	
+13-20	1573-1574	.	$.	_	
+
+#Text=Meinerseits erwarte ich Deinen Beitrag im Schocken-Almanach .
+14-1	1576-1587	Meinerseits	ADV	_	
+14-2	1588-1595	erwarte	VVFIN	_	
+14-3	1596-1599	ich	PPER	_	
+14-4	1600-1606	Deinen	PPOSAT	_	
+14-5	1607-1614	Beitrag	NN	_	
+14-6	1615-1617	im	APPRART	_	
+14-7	1618-1635	Schocken-Almanach	NE	PUB	
+14-8	1636-1637	.	$.	_	
+
+#Text=Dein Gedicht zum Angelus Novus habe ich wieder mit unverminderter Bewunderung gelesen .
+15-1	1639-1643	Dein	PPOSAT	_	
+15-2	1644-1651	Gedicht	NN	_	
+15-3	1652-1655	zum	APPRART	_	
+15-4	1656-1663	Angelus	NE	PER[9]	
+15-5	1664-1669	Novus	NE	PER[9]	
+15-6	1670-1674	habe	VAFIN	_	
+15-7	1675-1678	ich	PPER	_	
+15-8	1679-1685	wieder	ADV	_	
+15-9	1686-1689	mit	APPR	_	
+15-10	1690-1704	unverminderter	ADJA	_	
+15-11	1705-1716	Bewunderung	NN	_	
+15-12	1717-1724	gelesen	VVPP	_	
+15-13	1725-1726	.	$.	_	
+
+#Text=Ich versetze es unter die Besten die ich kenne .
+16-1	1728-1731	Ich	PPER	_	
+16-2	1732-1740	versetze	VVFIN	_	
+16-3	1741-1743	es	PPER	_	
+16-4	1744-1749	unter	APPR	_	
+16-5	1750-1753	die	ART	_	
+16-6	1754-1760	Besten	NN	_	
+16-7	1761-1764	die	PRELS	_	
+16-8	1765-1768	ich	PPER	_	
+16-9	1769-1774	kenne	VVFIN	_	
+16-10	1775-1776	.	$.	_	
+
+#Text=Die Widmung der `` Einbahnstra\u00DFe '' las ich mit Anteil , der belebt wurde durch eine neue briefliche Nachricht von K.M.-St. Bitte sage ihr bei der n\u00E4chsten Gelegenheit sehr herzliche Gru\u0308\u00DFe .
+17-1	1778-1781	Die	ART	_	
+17-2	1782-1789	Widmung	NN	_	
+17-3	1790-1793	der	ART	_	
+17-4	1794-1796	``	$(	_	
+17-5	1797-1810	Einbahnstraße	NN	LIT	
+17-6	1811-1813	''	$(	_	
+17-7	1814-1817	las	VVFIN	_	
+17-8	1818-1821	ich	PPER	_	
+17-9	1822-1825	mit	APPR	_	
+17-10	1826-1832	Anteil	NN	_	
+17-11	1833-1834	,	$,	_	
+17-12	1835-1838	der	ART	_	
+17-13	1839-1845	belebt	ADJA	_	
+17-14	1846-1851	wurde	VAFIN	_	
+17-15	1852-1857	durch	APPR	_	
+17-16	1858-1862	eine	ART	_	
+17-17	1863-1867	neue	ADJA	_	
+17-18	1868-1878	briefliche	ADJA	_	
+17-19	1879-1888	Nachricht	NN	_	
+17-20	1889-1892	von	APPR	_	
+17-21	1893-1901	K.M.-St.	NE	PER	
+17-22	1902-1907	Bitte	ADV	_	
+17-23	1908-1912	sage	VVFIN	_	
+17-24	1913-1916	ihr	PPOSAT	_	
+17-25	1917-1920	bei	APPR	_	
+17-26	1921-1924	der	ART	_	
+17-27	1925-1933	nächsten	ADJA	_	
+17-28	1934-1945	Gelegenheit	NN	_	
+17-29	1946-1950	sehr	ADV	_	
+17-30	1951-1960	herzliche	ADJA	_	
+17-31	1961-1967	Grüße	NN	_	
+17-32	1968-1969	.	$.	_	
+
+#Text=...
+18-1	1971-1974	...	$(	_	

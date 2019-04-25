@@ -1,0 +1,95 @@
+#FORMAT=WebAnno TSV 3.1
+#T_SP=de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS|PosValue
+#T_SP=de.tudarmstadt.ukp.dkpro.core.api.ner.type.NamedEntity|value
+
+
+#Text=Lieber Brentano , Ihr sch\u00F6ner Satz `` sagen lassen sich die Menschen nichts , aber erz\u00E4hlen lassen sie sich alles '' bringt mich darauf , Ihnen als Gegengabe f\u00FCr den sch\u00F6nen Auswahlband eine kleine Betrachtung \u00FCber den Erz\u00E4hler zu schicken .
+1-1	0-6	Lieber	ADJA	_	
+1-2	7-15	Brentano	NE	PER	
+1-3	16-17	,	$,	_	
+1-4	18-21	Ihr	PPER	_	
+1-5	22-29	schöner	ADJA	_	
+1-6	30-34	Satz	NN	_	
+1-7	35-37	``	$(	_	
+1-8	38-43	sagen	VVINF	_	
+1-9	44-50	lassen	VVFIN	_	
+1-10	51-55	sich	PRF	_	
+1-11	56-59	die	ART	_	
+1-12	60-68	Menschen	NN	_	
+1-13	69-75	nichts	PIS	_	
+1-14	76-77	,	$,	_	
+1-15	78-82	aber	KON	_	
+1-16	83-91	erzählen	VVINF	_	
+1-17	92-98	lassen	VVFIN	_	
+1-18	99-102	sie	PPER	_	
+1-19	103-107	sich	PRF	_	
+1-20	108-113	alles	PIS	_	
+1-21	114-116	''	$(	_	
+1-22	117-123	bringt	VVFIN	_	
+1-23	124-128	mich	PPER	_	
+1-24	129-135	darauf	PROAV	_	
+1-25	136-137	,	$,	_	
+1-26	138-143	Ihnen	PPER	_	
+1-27	144-147	als	APPR	_	
+1-28	148-157	Gegengabe	NN	_	
+1-29	158-161	für	APPR	_	
+1-30	162-165	den	ART	_	
+1-31	166-173	schönen	ADJA	_	
+1-32	174-185	Auswahlband	NN	_	
+1-33	186-190	eine	ART	_	
+1-34	191-197	kleine	ADJA	_	
+1-35	198-209	Betrachtung	NN	_	
+1-36	210-214	über	APPR	_	
+1-37	215-218	den	ART	_	
+1-38	219-227	Erzähler	NN	_	
+1-39	228-230	zu	PTKZU	_	
+1-40	231-239	schicken	VVINF	_	
+1-41	240-241	.	$.	_	
+
+#Text=Ich habe sie vor ein paar Jahren ver\u00F6ffentlicht ; sie wird Ihnen schwerlich untergekommen sein .
+2-1	243-246	Ich	PPER	_	
+2-2	247-251	habe	VAFIN	_	
+2-3	252-255	sie	PPER	_	
+2-4	256-259	vor	APPR	_	
+2-5	260-263	ein	ART	_	
+2-6	264-268	paar	PIAT	_	
+2-7	269-275	Jahren	NN	_	
+2-8	276-290	veröffentlicht	VVPP	_	
+2-9	291-292	;	$.	_	
+2-10	293-296	sie	PPER	_	
+2-11	297-301	wird	VAFIN	_	
+2-12	302-307	Ihnen	PPER	_	
+2-13	308-318	schwerlich	ADJD	_	
+2-14	319-332	untergekommen	VVPP	_	
+2-15	333-337	sein	VAINF	_	
+2-16	338-339	.	$.	_	
+
+#Text=Kellers Gedichte liebe ich sehr , und seit jeher !
+3-1	341-348	Kellers	NE	PER	
+3-2	349-357	Gedichte	NN	_	
+3-3	358-363	liebe	VVFIN	_	
+3-4	364-367	ich	PPER	_	
+3-5	368-372	sehr	ADV	_	
+3-6	373-374	,	$,	_	
+3-7	375-378	und	KON	_	
+3-8	379-383	seit	APPR	_	
+3-9	384-389	jeher	ADV	_	
+3-10	390-391	!	$.	_	
+
+#Text=Lassen Sie sich wieder einmal ausf\u00FChrlicher vernehmen ?
+4-1	393-399	Lassen	VVFIN	_	
+4-2	400-403	Sie	PPER	_	
+4-3	404-408	sich	PRF	_	
+4-4	409-415	wieder	ADV	_	
+4-5	416-422	einmal	ADV	_	
+4-6	423-436	ausführlicher	ADJD	_	
+4-7	437-446	vernehmen	VVINF	_	
+4-8	447-448	?	$.	_	
+
+#Text=Die freundlichsten Gr\u00FC\u00DFe Ihr Walter Benjamin
+5-1	450-453	Die	ART	_	
+5-2	454-468	freundlichsten	ADJA	_	
+5-3	469-474	Grüße	NN	_	
+5-4	475-478	Ihr	PPOSAT	_	
+5-5	479-485	Walter	NE	PER[3]	
+5-6	486-494	Benjamin	NE	PER[3]	
